@@ -1,6 +1,6 @@
 # Vue 3 + Vite
 
--pre-req: npm install
+- pre-req: npm install
 - Run local server: `npm run dev`
 - Build to 'dist' folder: `npm run build`
 
