@@ -1,0 +1,665 @@
+.pageContainer {
+    position: relative;
+  
+    min-width: 250px;
+    min-height: 250px;
+    display: inline-block;
+  
+    /*border: 3px solid green;*/
+  }
+  
+  .backgroundImage {
+    max-width: 100%;
+    max-height: 100vh;
+  }
+  
+  .ContentsContainer {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  
+    /*border: 2px solid purple;*/
+  
+    z-index: 1;
+  }
+  
+  .NASALogo {
+    position: absolute;
+  
+    top: 9%;
+    left: 1%;
+    right: 91%;
+  }
+  
+  .NASALogo img {
+    width: 100%;
+  }
+  
+  .kidsClub {
+    position: absolute;
+  
+    top: 10%;
+    left: 89%;
+    right: 1%;
+  }
+  
+  .kidsClub img {
+    width: 100%;
+  }
+  
+  .spaceships {
+    position: absolute;
+  
+    display: flex;
+    justify-content: center;
+  
+    top: 0;
+    left: 20%;
+    right: 20%;
+    bottom: 80%;
+  
+    /*border: 1px solid orange;*/
+  }
+  
+  .spaceships img {
+    /*Good starting size*/
+    width: 20%;
+  }
+  
+  /*SpaceX*/
+  #Ship1 {
+    position: absolute;
+    top: 3%;
+    left: 20%;
+    right: auto;
+    bottom: auto;
+  
+    width: 20%;
+    height: 70%;
+  }
+  
+  /*Soyuz*/
+  #Ship2 {
+    position: absolute;
+    top: 3%;
+    right: 22%;
+    left: auto;
+    bottom: auto;
+  
+    width: 28%;
+    height: 80%;
+  }
+  
+  .expeditionMonitors {
+    position: absolute;
+  
+    display: flex;
+    justify-content: center;
+  
+    top: 15%;
+    left: 18%;
+    right: 18%;
+    bottom: 60%;
+  
+    /*border: 1px solid greenyellow;*/
+  }
+  
+  .monitor {
+    width: 22%;
+  
+    /* border: 1px solid aliceblue; */
+  }
+  
+  .monitor img {
+    width: 100%;
+  }
+  
+  #MonitorLeft {
+    position: absolute;
+  
+    margin-top: -5%;
+  
+    left: 0;
+  }
+  
+  #MonitorMiddle {
+    position: absolute;
+  
+    top: 30%;
+    left: auto;
+    right: auto;
+  
+    width: 28%;
+  }
+  
+  #MonitorRight {
+    position: absolute;
+  
+    margin-top: -5%;
+  
+    right: 0;
+  }
+  
+  .patch {
+    position: absolute;
+  
+    top: 0;
+  
+    /* border: 1px solid blueviolet; */
+  }
+  
+  #PatchLeft {
+    position: absolute;
+  
+    left: 25%;
+    right: 19%;
+    top: 25%;
+    bottom: 21%;
+  
+    transform: rotateY(40deg) skew(-14deg, 14deg) rotateX(-10deg);
+  
+    z-index: 0;
+  }
+  
+  #PatchMiddle {
+    position: absolute;
+  
+    left: 25%;
+    right: 23%;
+    top: 7%;
+    bottom: 10%;
+  
+    transform: rotateY(0deg) skew(-0deg, 0deg) rotateX(10deg);
+  
+    z-index: 0;
+  }
+  
+  #PatchRight {
+    position: absolute;
+  
+    left: 20%;
+    right: 23%;
+    top: 25%;
+    bottom: 20%;
+  
+    transform: rotateY(40deg) skew(16deg, -16deg) rotateX(10deg);
+  
+    z-index: 0;
+  }
+  
+  .carousel {
+    position: absolute;
+    bottom: 9%;
+    left: 2%;
+    right: 2%;
+    top: 46%;
+    overflow: hidden;
+  }
+  
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+  
+  .Cards img {
+    width: 100%;
+  }
+  
+  .Cards {
+    position: absolute;
+  
+    width: 100%;
+    height: 100%;
+  
+    /*border: 2px solid red;*/
+  }
+  
+  .astronaut-container {
+    position: relative;
+  
+    width: 100%;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.6));
+  
+    /*border: 1px solid chartreuse;*/
+  }
+  
+  /* Good defaults for the position of the photo*/
+  .AstroImage {
+    position: absolute;
+    top: 0px;
+  
+    width: 99%;
+    height: 100%;
+  
+    z-index: 99;
+  
+    background-position: 65% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bob {
+    background-image: url("../Images/Astronauts/BobHines.png");
+  }
+  
+  .oleg {
+    background-image: url("../Images/Astronauts/OlegArtemyev.png");
+  }
+  
+  .jessica {
+    background-image: url("../Images/Astronauts/JessicaWatkins.png");
+  }
+  
+  .samantha {
+    background-image: url("../Images/Astronauts/SamanthaCristoforetti.jpg");
+  }
+  
+  .justin {
+    background-image: url("../Images/Astronauts/JustinLocke-Headshot.jpg");
+  
+    background-position: 40% center;
+  }
+  
+  .bombur {
+    background-image: url("../Images/Astronauts/BomburCheese.png");
+  }
+  
+  .goku {
+    background-image: url("../Images/Astronauts/Goku.png");
+  
+    background-position: 50% center;
+  }
+  
+  .docbrown {
+    background-image: url("../Images/Astronauts/docbrown.png");
+  }
+  
+  .missingno {
+    background-image: url("../Images/Astronauts/MissingNo.png");
+  }
+  
+  .CardCrop {
+    clip-path: polygon(
+      /*Top Left Corner*/ 4.5% 3%,
+      /*Bottom Left Corner*/ 4.5% 85%,
+      /*Bottom Right Corner*/ 96.5% 85%,
+      /*Right Edge Cut*/ 96.5% 19.2%,
+      /*Left Edge Cut*/ 73.2% 3% /* Polygon closes automatically. */
+    );
+  }
+  
+  .CardCrop2 {
+    clip-path: polygon(
+      /*Top Left Corner*/ 2.5% 1.5%,
+      /*Bottom Left Corner*/ 2.5% 85%,
+      /*Bottom Right Corner*/ 98.5% 85%,
+      /*Right Edge Cut*/ 98.5% 24%,
+      /*Left Edge Cut*/ 69.5% 1.5% /* Polygon closes automatically. */
+    );
+  }
+  
+  .CardCrop3 {
+    clip-path: polygon(
+      /*Top Left Corner*/ 2.5% 2%,
+      /*Bottom Left Corner*/ 2.5% 86%,
+      /*Bottom Right Corner*/ 98.5% 86%,
+      /*Right Edge Cut*/ 98.5% 25%,
+      /*Left Edge Cut*/ 67% 2% /* Polygon closes automatically. */
+    );
+  }
+  
+  .CardCrop4 {
+    clip-path: polygon(
+      /*Top Left Corner*/ 2.5% 1.5%,
+      /*Bottom Left Corner*/ 2.5% 87%,
+      /*Bottom Right Corner*/ 98.5% 87%,
+      /*Right Edge Cut*/ 98.5% 24%,
+      /*Left Edge Cut*/ 64.5% 1.5% /* Polygon closes automatically. */
+    );
+  }
+  
+  .AstronautName {
+    position: absolute;
+    bottom: 0px;
+    width: 99%;
+    height: 15%;
+  
+    padding-top: 3%;
+    z-index: 100;
+  
+    font-size: 1.4vw;
+  
+    text-align: center;
+    color: white;
+  }
+  
+  .swiper-button-next-u {
+    position: absolute;
+  
+    right: 0%;
+  
+    width: 5%;
+  }
+  
+  .swiper-button-prev-u {
+    position: absolute;
+  
+    left: 0%;
+  
+    width: 5%;
+  }
+  
+  .swiper-button-next-u img {
+    width: 100%;
+  }
+  
+  .swiper-button-prev-u img {
+    width: 100%;
+  }
+  
+  .modal {
+    position: absolute;
+  }
+  
+  .modal-dialog {
+    position: relative;
+  
+    max-width: 95vw;
+  
+    max-height: 95vh;
+  
+    height: 90%;
+  }
+  
+  /*Hides the borders in the modals*/
+  
+  .modal-header {
+    border-bottom-width: 0px;
+  }
+  
+  .modal-footer {
+    border-top-width: 0px;
+  }
+  
+  .close-modal {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .modal-card {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+  
+    width: 15%;
+  }
+  
+  .modal-body {
+    height: 100%;
+  }
+  
+  /*Ship Modals*/
+  
+  .ship-modal {
+    height: 100%;
+  
+    border-radius: 25px;
+    border: solid 5px rgb(0, 136, 248);
+  
+    background-image: linear-gradient(to top right, grey, lightgrey);
+  }
+  
+  .modal-ship-background-circle {
+    pointer-events: none;
+  
+    position: absolute;
+    top: -25vw;
+    right: -25vw;
+  
+    border-radius: 50%;
+    height: 50vw;
+    width: 50vw;
+    border: 2px solid white;
+  }
+  
+  .modal-ship-background-circle-two {
+    pointer-events: none;
+  
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  
+    border-radius: 50%;
+    height: 40vw;
+    width: 40vw;
+    border: 2px solid white;
+  }
+  
+  .modal-ship-circle-clip {
+    clip-path: polygon(
+      /*Top Left Corner*/ 0% 0%,
+      /*Top Right Corner*/ 100% 0%,
+      /*Bottom Right Corner*/ 100% 100%,
+      /*Botom Left Corner*/ 0% 100% /* Polygon closes automatically. */
+    );
+  }
+  
+  .modal-ship-circle-clip-two {
+    clip-path: polygon(0 50%, 50% 50%, 50% 100%, 0 100%);
+  }
+  
+  .modal-ship-name {
+    position: absolute;
+  
+    top: 0%;
+    left: 20%;
+    right: 10%;
+  
+    color: blue;
+    font-size: 3.3vw;
+    font-weight: bold;
+  }
+  
+  .modal-ship-details {
+    position: absolute;
+  
+    left: 20%;
+    right: 10%;
+    top: 5%;
+    bottom: 10%;
+  
+    font-size: 2.5vw;
+  
+    pointer-events: none;
+  }
+  
+  .modal-ship-img {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+  
+    width: 15%;
+  }
+  
+  /* Crew Modals */
+  
+  .crew-modal {
+    height: 100%;
+  
+    border-radius: 25px;
+    border: solid 5px rgb(0, 136, 248);
+  
+    background-image: linear-gradient(
+      124deg,
+      rgba(183, 195, 218, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(183, 195, 218, 1) 100%
+    );
+  }
+  
+  .modal-crew-img {
+    position: absolute;
+    top: 14%;
+    left: 3%;
+  
+    width: 60%;
+  }
+  
+  .modal-crew-name {
+    color: blue;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  
+  .modal-crew-body {
+    height: 100%;
+  }
+  
+  .modal-crew-details {
+    position: absolute;
+  
+    left: 65%;
+    right: 0%;
+    top: 5%;
+    bottom: 10%;
+  
+    font-size: 2vw;
+  
+    pointer-events: none;
+  }
+  
+  .modal-crew-button-close {
+    position: absolute;
+  
+    top: 3%;
+    right: 1%;
+  }
+  
+  /* Astronaut Modals */
+  
+  .astronaut-modal {
+    height: 100%;
+  
+    border: solid 8px rgb(0, 136, 248);
+    border-radius: 20px;
+  }
+  
+  .modal-astro-details {
+    position: absolute;
+  
+    left: 20%;
+    right: 10%;
+    top: 5%;
+    bottom: 10%;
+  
+    font-size: 2.2vw;
+  
+    pointer-events: none;
+  }
+  
+  .modal-astro-name {
+    position: absolute;
+  
+    left: 20%;
+    right: 10%;
+  
+    color: blue;
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+  
+  .modal-astro-card-name {
+    font-size: 1.1vw;
+  }
+  
+  .modal-prev-astro {
+    position: absolute;
+  
+    left: 2%;
+    bottom: 0%;
+    top: 80%;
+  }
+  
+  .modal-next-astro {
+    position: absolute;
+  
+    right: 2%;
+    bottom: 0%;
+    top: 80%;
+  }
+  
+  .modal-prev-astro img {
+    height: 100%;
+  }
+  
+  .modal-next-astro img {
+    height: 100%;
+  }
+  
+  .modal-astro-arrows-prev {
+    position: absolute;
+    display: flex;
+  
+    top: 0%;
+    bottom: 0%;
+    left: 100%;
+  
+    margin-bottom: 0px;
+  
+    color: blue;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: bold;
+    align-items: center;
+  }
+  
+  .modal-astro-arrows-next {
+    position: absolute;
+    display: flex;
+  
+    top: 0%;
+    bottom: 0%;
+    right: 100%;
+  
+    margin-bottom: 0px;
+  
+    color: blue;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: right;
+    font-weight: bold;
+    align-items: center;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0%;
+  
+    width: 100%;
+    height: 7%;
+  
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2.6vw;
+  
+    background-color: rgba(7, 125, 195, 255);
+  
+    border-top: 3px solid rgba(49, 66, 206, 255);
+  
+    border-bottom: 3px solid rgba(49, 66, 206, 255);
+  }
+  
