@@ -43,7 +43,7 @@
               src="./Images/NowInSpaceMonitorLeft.png"
               alt="Expedition 67 Computer Monitor"
             />
-            <div class="patch" id="PatchLeft">
+            <div class="patch iOS-visbility-hotfix" id="PatchLeft">
               <img
                 src="https://www.nasa.gov/specials/kidsclub/nowinspace/expedition67-crew4/img/slide_12.png"
                 alt="Expedition 67 patch"
@@ -57,7 +57,7 @@
               src="./Images/NowInSpaceMonitorMiddle.png"
               alt="Expedition 67 Computer Monitor"
             />
-            <div class="patch" id="PatchMiddle">
+            <div class="patch iOS-visbility-hotfix" id="PatchMiddle">
               <img
                 src="https://www.nasa.gov/specials/kidsclub/nowinspace/expedition67-crew4/img/slide_12.png"
                 alt="Expedition 67 patch"
@@ -71,7 +71,7 @@
               src="./Images/NowInSpaceMonitorRight.png"
               alt="Expedition 67 Computer Monitor"
             />
-            <div class="patch" id="PatchRight">
+            <div class="patch iOS-visbility-hotfix" id="PatchRight">
               <img
                 src="https://www.nasa.gov/specials/kidsclub/nowinspace/expedition67-crew4/img/slide_12.png"
                 alt="Expedition 67 patch"
@@ -108,7 +108,7 @@
             @slideChange="onSlideChange"
           >
             <swiper-slide>
-              <div class="Cards noselect">
+              <div class="Cards noselect iOS-visbility-hotfix">
                 <a data-bs-toggle="modal" href="#bob-modal">
                   <div class="astronaut-container">
                     <img
@@ -123,7 +123,7 @@
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="Cards noselect">
+              <div class="Cards noselect iOS-visbility-hotfix">
                 <a data-bs-toggle="modal" href="#oleg-modal">
                   <div class="astronaut-container">
                     <img
@@ -138,7 +138,7 @@
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="Cards noselect">
+              <div class="Cards noselect iOS-visbility-hotfix">
                 <a data-bs-toggle="modal" href="#jessica-modal">
                   <div class="astronaut-container">
                     <img
@@ -153,7 +153,7 @@
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="Cards noselect">
+              <div class="Cards noselect iOS-visbility-hotfix">
                 <a data-bs-toggle="modal" href="#samantha-modal">
                   <div class="astronaut-container card-shadow">
                     <img
@@ -168,7 +168,7 @@
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="Cards noselect">
+              <div class="Cards noselect iOS-visbility-hotfix">
                 <a data-bs-toggle="modal" href="#sergey-modal">
                   <div class="astronaut-container">
                     <img
@@ -183,7 +183,7 @@
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="Cards noselect">
+              <div class="Cards noselect iOS-visbility-hotfix">
                 <a data-bs-toggle="modal" href="#denis-modal">
                   <div class="astronaut-container">
                     <img
@@ -198,7 +198,7 @@
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="Cards noselect">
+              <div class="Cards noselect iOS-visbility-hotfix">
                 <a data-bs-toggle="modal" href="#kjell-modal">
                   <div class="astronaut-container">
                     <img
@@ -213,7 +213,7 @@
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="Cards noselect">
+              <div class="Cards noselect iOS-visbility-hotfix">
                 <a data-bs-toggle="modal" href="#example-modal">
                   <div class="astronaut-container">
                     <img
@@ -228,7 +228,7 @@
               </div>
             </swiper-slide>
             <swiper-slide>
-              <div class="Cards noselect">
+              <div class="Cards noselect iOS-visbility-hotfix">
                 <a data-bs-toggle="modal" href="#example-modal">
                   <div class="astronaut-container">
                     <img

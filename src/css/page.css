@@ -663,3 +663,10 @@
     border-bottom: 3px solid rgba(49, 66, 206, 255);
   }
   
+  /* iOS visibility hotfix for transformed elements zindex iOS bug*/
+  body.modal-open .iOS-visbility-hotfix {
+    @supports (-webkit-touch-callout: none) {
+      /* CSS specific to iOS devices */
+      visibility: hidden;
+    }
+  }
