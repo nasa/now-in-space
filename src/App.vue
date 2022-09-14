@@ -959,9 +959,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import "./CSS/style.css";
+import "./css/style.css";
 
-import "./CSS/page.css";
+import "./css/page.css";
 
 export default {
   name: "astro-carousel",
