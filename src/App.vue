@@ -383,7 +383,7 @@
       aria-hidden="true"
     >
       <div class="modal-dialog">
-        <div class="modal-content crew-modal">
+        <div class="crew-modal modal-content">
           <div class="modal-crew-body">
             <img
               class="modal-crew-img"
