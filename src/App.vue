@@ -258,7 +258,7 @@
 
     <!--Ship Modals-->
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="spaceX-modal"
       tabindex="-1"
       role="dialog"
@@ -299,7 +299,7 @@
     </div>
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="soyuz-modal"
       tabindex="-1"
       role="dialog"
@@ -344,7 +344,7 @@
     <!-- Crew Modals -->
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="ex67-modal"
       tabindex="-1"
       role="dialog"
@@ -376,7 +376,7 @@
     </div>
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="ex69-modal"
       tabindex="-1"
       role="dialog"
@@ -414,7 +414,7 @@
     </div>
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="ex68-modal"
       tabindex="-1"
       role="dialog"
@@ -448,7 +448,7 @@
     <!-- Astronaut Modals -->
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="bob-modal"
       tabindex="-1"
       role="dialog"
@@ -508,7 +508,7 @@
     </div>
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="oleg-modal"
       tabindex="-1"
       role="dialog"
@@ -569,7 +569,7 @@
     </div>
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="jessica-modal"
       tabindex="-1"
       role="dialog"
@@ -633,7 +633,7 @@
     </div>
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="samantha-modal"
       tabindex="-1"
       role="dialog"
@@ -696,7 +696,7 @@
     </div>
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="sergey-modal"
       tabindex="-1"
       role="dialog"
@@ -757,7 +757,7 @@
     </div>
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="denis-modal"
       tabindex="-1"
       role="dialog"
@@ -818,7 +818,7 @@
     </div>
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="kjell-modal"
       tabindex="-1"
       role="dialog"
@@ -884,7 +884,7 @@
     </div>
 
     <div
-      class="portfolio-modal modal fade"
+      class="portfolio-modal modal"
       id="example-modal"
       tabindex="-1"
       role="dialog"
