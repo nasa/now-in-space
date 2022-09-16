@@ -492,7 +492,7 @@
           </div>
           <div class="modal-footer">
             <a data-bs-toggle="modal" href="#example-modal">
-              <div class="modal-prev-astro">
+              <div class="modal-prev-astro modal-hide-arrow">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
@@ -874,7 +874,7 @@
               </div>
             </a>
             <a data-bs-toggle="modal" href="#example-modal">
-              <div class="modal-next-astro">
+              <div class="modal-next-astro modal-hide-arrow">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
               </div>
