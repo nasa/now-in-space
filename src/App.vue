@@ -387,7 +387,7 @@
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
-            <div class="modal-crew-details">
+            <div class="modal-crew-details modal-crew-small-text">
               <p>
                 Each mission on the space station has its own patch. The Expedition 67 crew planned what would be on its patch. Then, artists designed it.
                 <br><br>
@@ -889,6 +889,208 @@
                 <br><br>
                 This is Kjell’s second stay on the space station. He has spent more than 250 days in space. 
 
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a data-bs-toggle="modal" href="#denis-modal">
+              <div class="modal-prev-astro">
+                <img src="./Images/CarouselArrowLeft.png" />
+                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
+              </div>
+            </a>
+            <a data-bs-toggle="modal" href="#example-modal">
+              <div class="modal-next-astro modal-hide-arrow">
+                <img src="./Images/CarouselArrowRight.png" />
+                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal"
+      id="sergey2-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content astronaut-modal">
+          <div class="modal-header">
+            <div class="Cards modal-card">
+              <div class="astronaut-container">
+                <img
+                  class="d-inline"
+                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                  alt="Sergey Prokopyev"
+                />
+                <div class="AstroImage sergey2 CardCrop3"></div>
+                <div class="AstronautName modal-astro-card-name">
+                  Sergey Prokopyev
+                </div>
+              </div>
+            </div>
+            <span class="modal-astro-name"> Sergey Prokopyev </span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-astro-details">
+              <p>
+                <span class="modal-bold">Birthday: </span>Feb. 19, 1975
+                <br>
+                <span class="modal-bold">Born: </span>Yekaterinburg, Russia
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 56/57, Expedition 67/68
+                <br>
+                <br>
+                Cosmonaut Sergey Prokopyev is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                This is Sergey’s second stay on the space station. He spent 196 days in space on his first mission in 2018. 
+                <br><br>
+                 
+
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a data-bs-toggle="modal" href="#denis-modal">
+              <div class="modal-prev-astro">
+                <img src="./Images/CarouselArrowLeft.png" />
+                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
+              </div>
+            </a>
+            <a data-bs-toggle="modal" href="#example-modal">
+              <div class="modal-next-astro modal-hide-arrow">
+                <img src="./Images/CarouselArrowRight.png" />
+                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal"
+      id="dmitry-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content astronaut-modal">
+          <div class="modal-header">
+            <div class="Cards modal-card">
+              <div class="astronaut-container">
+                <img
+                  class="d-inline"
+                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                  alt="Dmitry Petelin"
+                />
+                <div class="AstroImage dmitry CardCrop3"></div>
+                <div class="AstronautName modal-astro-card-name">
+                  Dmitry Petelin
+                </div>
+              </div>
+            </div>
+            <span class="modal-astro-name"> Dmitry Petelin </span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-astro-details">
+              <p>
+                <span class="modal-bold">Birthday: </span>July 10, 1983
+                <br>
+                <span class="modal-bold">Born: </span>Kustanai, Kazakhstan
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 67/68
+                <br>
+                <br>
+                Cosmonaut Dmitry Petelin is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                This is Dmitry’s first trip to space.
+
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a data-bs-toggle="modal" href="#denis-modal">
+              <div class="modal-prev-astro">
+                <img src="./Images/CarouselArrowLeft.png" />
+                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
+              </div>
+            </a>
+            <a data-bs-toggle="modal" href="#example-modal">
+              <div class="modal-next-astro modal-hide-arrow">
+                <img src="./Images/CarouselArrowRight.png" />
+                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal"
+      id="francisco-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content astronaut-modal">
+          <div class="modal-header">
+            <div class="Cards modal-card">
+              <div class="astronaut-container">
+                <img
+                  class="d-inline"
+                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                  alt="Francisco Rubio"
+                />
+                <div class="AstroImage francisco CardCrop3"></div>
+                <div class="AstronautName modal-astro-card-name">
+                  Francisco Rubio
+                </div>
+              </div>
+            </div>
+            <span class="modal-astro-name"> Francisco Rubio </span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-astro-details">
+              <p>
+                <span class="modal-bold">Birthday: </span>Dec. 11, 1975
+                <br>
+                <span class="modal-bold">Born: </span>Los Angeles, California
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 67/68
+                <br>
+                <span class="modal-bold">Fun Fact: </span>Francisco lived in El Salvador when he was a kid.
+                <br>
+                <br>
+                Astronaut Francisco Rubio is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                Francisco grew up in Miami, Florida. Before becoming an astronaut, he was a helicopter pilot in the Army, a parachute Jumpmaster, and a family doctor and flight surgeon. This is his first trip to space.
+                 
               </p>
             </div>
           </div>

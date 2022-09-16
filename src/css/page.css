@@ -290,6 +290,18 @@ body {
   background-image: url("../Images/Astronauts/KjellLindgren.jpg");
 }
 
+.sergey2 {
+  background-image: url("../Images/Astronauts/SergeyProkopyev.jpg");
+}
+
+.dmitry {
+  background-image: url("../Images/Astronauts/DmitryPetelin.jpg");
+}
+
+.francisco {
+  background-image: url("../Images/Astronauts/FranciscoRubio.jpg");
+}
+
 .docbrown {
   background-image: url("../Images/Astronauts/docbrown.png");
 }
@@ -597,6 +609,10 @@ body {
   text-align: left;
 
   pointer-events: none;
+}
+
+.modal-crew-small-text{
+  font-size: 1.4vw;
 }
 
 .modal-crew-button-close {
