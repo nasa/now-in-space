@@ -166,7 +166,7 @@
                       alt="Fourth slide"
                     />
                     <div class="AstroImage samantha CardCrop3"></div>
-                    <div class="AstronautName">Samantha Cristoforetti</div>
+                    <div class="AstronautName LongAstronautName">Samantha Cristoforetti</div>
                   </div>
                 </a>
               </div>
