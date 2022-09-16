@@ -42,10 +42,10 @@
 
       <div class="expeditionMonitors">
         <div class="monitor" id="MonitorLeft">
-          <a data-bs-toggle="modal" href="#ex67-modal">
+          <a data-bs-toggle="modal" href="#spacex4-modal">
             <img
               src="./Images/NowInSpaceMonitorLeft.png"
-              alt="Expedition 67 Computer Monitor"
+              alt="SpaceX Crew 4 Computer Monitor"
             />
             <div class="patch iOS-visbility-hotfix" id="PatchLeft">
               <img
@@ -56,24 +56,24 @@
           </a>
         </div>
         <div class="monitor" id="MonitorMiddle">
-          <a data-bs-toggle="modal" href="#ex69-modal">
+          <a data-bs-toggle="modal" href="#ex67-modal">
             <img
               src="./Images/NowInSpaceMonitorMiddle.png"
               alt="Expedition 67 Computer Monitor"
             />
             <div class="patch iOS-visbility-hotfix" id="PatchMiddle">
               <img
-                src="https://www.nasa.gov/specials/kidsclub/nowinspace/expedition67-crew4/img/slide_12.png"
+                src="./Images/Expedition/67Patch.jpg"
                 alt="Expedition 67 patch"
               />
             </div>
           </a>
         </div>
         <div class="monitor" id="MonitorRight">
-          <a data-bs-toggle="modal" href="#ex68-modal">
+          <a data-bs-toggle="modal" href="#soyuxms21-modal">
             <img
               src="./Images/NowInSpaceMonitorRight.png"
-              alt="Expedition 67 Computer Monitor"
+              alt="Soyuz MS-21 Computer Monitor"
             />
             <div class="patch iOS-visbility-hotfix" id="PatchRight">
               <img
@@ -166,7 +166,7 @@
                       alt="Fourth slide"
                     />
                     <div class="AstroImage samantha CardCrop3"></div>
-                    <div class="AstronautName">Samantha Cristoforetti</div>
+                    <div class="AstronautName LongAstronautName">Samantha Cristoforetti</div>
                   </div>
                 </a>
               </div>
@@ -180,7 +180,7 @@
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
                       alt="Fifth slide"
                     />
-                    <div class="AstroImage CardCrop3"></div>
+                    <div class="AstroImage sergey CardCrop3"></div>
                     <div class="AstronautName">Sergey Korsakov</div>
                   </div>
                 </a>
@@ -195,7 +195,7 @@
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
                       alt="Sixth slide"
                     />
-                    <div class="AstroImage CardCrop3"></div>
+                    <div class="AstroImage denis CardCrop3"></div>
                     <div class="AstronautName">Denis Matveev</div>
                   </div>
                 </a>
@@ -210,23 +210,8 @@
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
                       alt="Seventh slide"
                     />
-                    <div class="AstroImage CardCrop3"></div>
+                    <div class="AstroImage kjell CardCrop3"></div>
                     <div class="AstronautName">Kjell Lindgren</div>
-                  </div>
-                </a>
-              </div>
-            </swiper-slide>
-            <swiper-slide>
-              <div class="Cards noselect iOS-visbility-hotfix">
-                <a data-bs-toggle="modal" href="#example-modal">
-                  <div class="astronaut-container">
-                    <img
-                      class="d-inline"
-                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Eigth slide"
-                    />
-                    <div class="AstroImage justin CardCrop3"></div>
-                    <div class="AstronautName">Justin Locke</div>
                   </div>
                 </a>
               </div>
@@ -346,7 +331,7 @@
 
     <div
       class="portfolio-modal modal"
-      id="ex67-modal"
+      id="spacex4-modal"
       tabindex="-1"
       role="dialog"
       aria-hidden="true"
@@ -355,8 +340,8 @@
         <div class="modal-content crew-modal">
           <div class="modal-crew-body">
             <img
-              class="modal-crew-img"
-              src="./Images/Expedition/LOTRMainCast.jpg"
+              class="modal-crew-img modal-crew-img-pos2"
+              src="./Images/Expedition/SpaceXCrew.jpeg"
             />
             <button
               type="button"
@@ -366,9 +351,15 @@
             ></button>
             <div class="modal-crew-details">
               <p>
-                <span class="modal-crew-name">The fabled adventurers</span> who
-                saved Middle Earth from the threat of Sauron and his forces.
-                Placeholder for Expedition 67.
+                <span class="modal-crew-name">SpaceX Crew-4</span>
+                <br>
+                <span class="modal-bold">Launch Date: </span>April 27, 2022
+                <br>
+                <span class="modal-bold">Launched From: </span>Kennedy Space Center in Florida
+                <br>
+                <span class="modal-bold">Spacecraft: </span>Crew Dragon named “Freedom”
+                <br>
+                <span class="modal-bold">Crew Members: </span><span class="modal-crew-flavor">(In order from the left)</span> Bob Hines, Samantha Cristoforetti, Jessica Watkins, Kjell Lindgren
               </p>
             </div>
           </div>
@@ -378,7 +369,7 @@
 
     <div
       class="portfolio-modal modal"
-      id="ex69-modal"
+      id="ex67-modal"
       tabindex="-1"
       role="dialog"
       aria-hidden="true"
@@ -387,8 +378,8 @@
         <div class="crew-modal modal-content">
           <div class="modal-crew-body">
             <img
-              class="modal-crew-img"
-              src="./Images/Expedition/LOTRMainCast.jpg"
+              class="modal-crew-img modal-crew-img-pos2"
+              src="./Images/Expedition/67Patch.jpg"
             />
             <button
               type="button"
@@ -396,17 +387,12 @@
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
-            <div class="modal-crew-details">
+            <div class="modal-crew-details modal-crew-small-text">
               <p>
-                <span class="modal-crew-name">The fabled adventurers</span> who
-                saved Middle Earth from the threat of Sauron and his forces.
-                <br /><br />
-                Pictured left to right in the top row: Aragorn, Gandalf,
-                Legolas, Boromir
-                <br />
-                Pictured left to right in the bottom row: Samwise, Frodo,
-                Pippin, Merry, Gimli <br />
-                Placeholder for Expedition 69.
+                Each mission on the space station has its own patch. The Expedition 67 crew planned what would be on its patch. Then, artists designed it.
+                <br><br>
+                This round mission patch shows the space station soaring above Earth. The Sun shines brightly through a big number 67, and three large stars shine in the background. These stars represent the United States, Russia, and Italy. These countries have crew members onboard during the mission. 
+
               </p>
             </div>
           </div>
@@ -416,7 +402,7 @@
 
     <div
       class="portfolio-modal modal"
-      id="ex68-modal"
+      id="soyuxms21-modal"
       tabindex="-1"
       role="dialog"
       aria-hidden="true"
@@ -426,7 +412,7 @@
           <div class="modal-crew-body">
             <img
               class="modal-crew-img"
-              src="./Images/Expedition/LOTRMainCast.jpg"
+              src="./Images/Expedition/SoyuzMS21Crew.jpg"
             />
             <button
               type="button"
@@ -436,9 +422,15 @@
             ></button>
             <div class="modal-crew-details">
               <p>
-                <span class="modal-crew-name">The fabled adventurers</span> who
-                saved Middle Earth from the threat of Sauron and his forces.
-                Placeholder for Expedition 68.
+                <span class="modal-crew-name">Soyuz MS-21 Crew</span>
+                <br>
+                <span class="modal-bold">Launch Date: </span>March 18, 2022
+                <br>
+                <span class="modal-bold">Launched From: </span>Baikonur Cosmodrome in Kazakhstan
+                <br>
+                <span class="modal-bold">Spacecraft: </span>Soyuz
+                <br>
+                <span class="modal-bold">Crew Members: </span><span class="modal-crew-flavor">(In order from the left)</span> Sergey Korsakov, Oleg Artemyev, Denis Matveev
               </p>
             </div>
           </div>
@@ -480,19 +472,25 @@
           <div class="modal-body">
             <div class="modal-astro-details">
               <p>
-                Astronaut Bob Hines is a flight engineer. A flight engineer has
-                many jobs. These can include performing experiments, doing
-                spacewalks, and fixing things on the space station.
-                <br /><br />
-                Bob grew up in Pennsylvania. He is a research pilot and has
-                flown many different types of airplanes. This is his first trip
-                to space.
+                <span class="modal-bold">Birthday: </span>Jan. 11, 1975
+                <br>
+                <span class="modal-bold">Born: </span>Fayetteville, North Carolina
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 67/68
+                <br>
+                <span class="modal-bold">Fun Fact: </span>Bob attended Space Camp when he was 14 years old.
+                <br>
+                <br>
+                Astronaut Bob Hines is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                Bob grew up in Pennsylvania. He is a research pilot and has flown many different types of airplanes. This is his first trip to space. 
+
               </p>
             </div>
           </div>
           <div class="modal-footer">
             <a data-bs-toggle="modal" href="#example-modal">
-              <div class="modal-prev-astro">
+              <div class="modal-prev-astro modal-hide-arrow">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
@@ -542,12 +540,17 @@
           <div class="modal-body">
             <div class="modal-astro-details">
               <p>
-                Cosmonaut Oleg Artemyev is the commander for Expedition 67. The
-                commander is in charge of the mission and makes sure it is a
-                success.
-                <br /><br />
-                This is Oleg’s third stay on the space station. He has spent
-                more than 450 days in space.
+                <span class="modal-bold">Birthday: </span>Dec. 28, 1970
+                <br>
+                <span class="modal-bold">Born: </span>Riga, Latvia
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 39/40, Expedition 55/56, Expedition 66/67
+                <br>
+                <br>
+                Cosmonaut Oleg Artemyev is the commander for Expedition 67. The commander is in charge of the mission and makes sure it is a success.
+                <br><br>
+                This is Oleg’s third stay on the space station. He has spent more than 450 days in space.  
+
               </p>
             </div>
           </div>
@@ -603,15 +606,19 @@
           <div class="modal-body">
             <div class="modal-astro-details">
               <p>
-                Astronaut Jessica Watkins is a flight engineer. A flight
-                engineer has many jobs. These can include performing
-                experiments, doing spacewalks, and fixing things on the space
-                station.
-                <br /><br />
-                Jessica grew up in Colorado. Before becoming an astronaut, she
-                studied geology. Geology is the study of rocks. She is
-                interested in what rocks on the Moon and Mars might be like.
-                This is her first trip to space.
+                <span class="modal-bold">Birthday: </span>May 14, 1988
+                <br>
+                <span class="modal-bold">Born: </span>Gaithersburg, Maryland
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 67/68
+                <br>
+                <span class="modal-bold">Fun Fact: </span>Jessica played rugby on the United States women’s national team.
+                <br>
+                <br>
+                Astronaut Jessica Watkins is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                Jessica grew up in Colorado. Before becoming an astronaut, she studied geology. Geology is the study of rocks. She is interested in what rocks on the Moon and Mars might be like. This is her first trip to space. 
+
               </p>
             </div>
           </div>
@@ -667,14 +674,19 @@
           <div class="modal-body">
             <div class="modal-astro-details">
               <p>
-                Astronaut Samantha Cristoforetti is a flight engineer. A flight
-                engineer has many jobs. These can include performing
-                experiments, doing spacewalks, and fixing things on the space
-                station.
-                <br /><br />
-                Samantha is is flying for the European Space Agency (ESA). She
-                is the first Italian woman to be an astronaut. This is her
-                second trip to space. She has spent more than 300 days in space.
+                <span class="modal-bold">Birthday: </span>April 26, 1977
+                <br>
+                <span class="modal-bold">Born: </span>Milan, Italy
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 42/43, Expedition 67/68
+                <br>
+                <span class="modal-bold">Fun Fact: </span>Samantha can speak Italian, English, German, French, and Russian.
+                <br>
+                <br>
+                Astronaut Samantha Cristoforetti is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                Samantha is flying for the European Space Agency (ESA). She is the first Italian woman to be an astronaut. This is her second trip to space. She has spent more than 300 days in space. 
+
               </p>
             </div>
           </div>
@@ -713,7 +725,7 @@
                   src="./Images/Astronauts/CardBackgroundBlue585x780.png"
                   alt="Sergey Korsakov "
                 />
-                <div class="AstroImage CardCrop3"></div>
+                <div class="AstroImage sergey CardCrop3"></div>
                 <div class="AstronautName modal-astro-card-name">
                   Sergey Korsakov
                 </div>
@@ -730,12 +742,17 @@
           <div class="modal-body">
             <div class="modal-astro-details">
               <p>
-                Cosmonaut Sergey Korsakov is a flight engineer for the mission.
-                A flight engineer has many jobs. These can include performing
-                experiments, doing spacewalks, and fixing things on the space
-                station.
-                <br /><br />
+                <span class="modal-bold">Birthday: </span>Sept. 1, 1984
+                <br>
+                <span class="modal-bold">Born: </span>Frunze, Kyrgyzstan
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 66/67
+                <br>
+                <br>
+                Cosmonaut Sergey Korsakov is a flight engineer for the mission. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
                 This is Sergey’s first trip to space.
+
               </p>
             </div>
           </div>
@@ -774,7 +791,7 @@
                   src="./Images/Astronauts/CardBackgroundBlue585x780.png"
                   alt="Denis Matveev"
                 />
-                <div class="AstroImage CardCrop3"></div>
+                <div class="AstroImage denis CardCrop3"></div>
                 <div class="AstronautName modal-astro-card-name">
                   Denis Matveev
                 </div>
@@ -791,12 +808,17 @@
           <div class="modal-body">
             <div class="modal-astro-details">
               <p>
-                Cosmonaut Denis Matveev is a flight engineer for the mission. A
-                flight engineer has many jobs. These can include performing
-                experiments, doing spacewalks, and fixing things on the space
-                station.
-                <br /><br />
+                <span class="modal-bold">Birthday: </span>April 25, 1983
+                <br>
+                <span class="modal-bold">Born: </span>St. Petersburg, Russia
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 66/67
+                <br>
+                <br>
+                Cosmonaut Denis Matveev is a flight engineer for the mission. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
                 This is Denis’s first trip to space.
+
               </p>
             </div>
           </div>
@@ -807,7 +829,7 @@
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#example-modal">
+            <a data-bs-toggle="modal" href="#kjell-modal">
               <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
@@ -835,7 +857,7 @@
                   src="./Images/Astronauts/CardBackgroundBlue585x780.png"
                   alt="Kjell Lindgren"
                 />
-                <div class="AstroImage CardCrop3"></div>
+                <div class="AstroImage kjell CardCrop3"></div>
                 <div class="AstronautName modal-astro-card-name">
                   Kjell Lindgren
                 </div>
@@ -852,29 +874,235 @@
           <div class="modal-body">
             <div class="modal-astro-details">
               <p>
-                Astronaut Kjell Lindgren is a flight engineer. A flight engineer
-                has many jobs. These can include performing experiments, doing
-                spacewalks, and fixing things on the space station.
-                <br /><br />
-                Kjell was born in Taiwan but spent most of his childhood in
-                England. He finished high school in Virginia. Kjell is a medical
-                doctor and was part of the parachute team at the U.S. Air Force
-                Academy.
-                <br /><br />
-                This is Kjell’s second stay on the space station. He has spent
-                more than 250 days in space.
+                <span class="modal-bold">Birthday: </span>Jan. 23, 1973
+                <br>
+                <span class="modal-bold">Born: </span>Taipei, Taiwan
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 44/45, Expedition 67/68
+                <br>
+                <span class="modal-bold">Fun Fact: </span>Kjell is an Eagle Scout.
+                <br>
+                <br>
+                Astronaut Kjell Lindgren is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                Kjell was born in Taiwan but spent most of his childhood in England. He finished high school in Virginia. Kjell is a medical doctor and was part of the parachute team at the U.S. Air Force Academy. 
+                <br><br>
+                This is Kjell’s second stay on the space station. He has spent more than 250 days in space. 
+
               </p>
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#sergey-modal">
+            <a data-bs-toggle="modal" href="#denis-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
             <a data-bs-toggle="modal" href="#example-modal">
-              <div class="modal-next-astro">
+              <div class="modal-next-astro modal-hide-arrow">
+                <img src="./Images/CarouselArrowRight.png" />
+                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal"
+      id="sergey2-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content astronaut-modal">
+          <div class="modal-header">
+            <div class="Cards modal-card">
+              <div class="astronaut-container">
+                <img
+                  class="d-inline"
+                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                  alt="Sergey Prokopyev"
+                />
+                <div class="AstroImage sergey2 CardCrop3"></div>
+                <div class="AstronautName modal-astro-card-name">
+                  Sergey Prokopyev
+                </div>
+              </div>
+            </div>
+            <span class="modal-astro-name"> Sergey Prokopyev </span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-astro-details">
+              <p>
+                <span class="modal-bold">Birthday: </span>Feb. 19, 1975
+                <br>
+                <span class="modal-bold">Born: </span>Yekaterinburg, Russia
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 56/57, Expedition 67/68
+                <br>
+                <br>
+                Cosmonaut Sergey Prokopyev is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                This is Sergey’s second stay on the space station. He spent 196 days in space on his first mission in 2018. 
+                <br><br>
+                 
+
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a data-bs-toggle="modal" href="#denis-modal">
+              <div class="modal-prev-astro">
+                <img src="./Images/CarouselArrowLeft.png" />
+                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
+              </div>
+            </a>
+            <a data-bs-toggle="modal" href="#example-modal">
+              <div class="modal-next-astro modal-hide-arrow">
+                <img src="./Images/CarouselArrowRight.png" />
+                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal"
+      id="dmitry-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content astronaut-modal">
+          <div class="modal-header">
+            <div class="Cards modal-card">
+              <div class="astronaut-container">
+                <img
+                  class="d-inline"
+                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                  alt="Dmitry Petelin"
+                />
+                <div class="AstroImage dmitry CardCrop3"></div>
+                <div class="AstronautName modal-astro-card-name">
+                  Dmitry Petelin
+                </div>
+              </div>
+            </div>
+            <span class="modal-astro-name"> Dmitry Petelin </span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-astro-details">
+              <p>
+                <span class="modal-bold">Birthday: </span>July 10, 1983
+                <br>
+                <span class="modal-bold">Born: </span>Kustanai, Kazakhstan
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 67/68
+                <br>
+                <br>
+                Cosmonaut Dmitry Petelin is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                This is Dmitry’s first trip to space.
+
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a data-bs-toggle="modal" href="#denis-modal">
+              <div class="modal-prev-astro">
+                <img src="./Images/CarouselArrowLeft.png" />
+                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
+              </div>
+            </a>
+            <a data-bs-toggle="modal" href="#example-modal">
+              <div class="modal-next-astro modal-hide-arrow">
+                <img src="./Images/CarouselArrowRight.png" />
+                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="portfolio-modal modal"
+      id="francisco-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content astronaut-modal">
+          <div class="modal-header">
+            <div class="Cards modal-card">
+              <div class="astronaut-container">
+                <img
+                  class="d-inline"
+                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                  alt="Francisco Rubio"
+                />
+                <div class="AstroImage francisco CardCrop3"></div>
+                <div class="AstronautName modal-astro-card-name">
+                  Francisco Rubio
+                </div>
+              </div>
+            </div>
+            <span class="modal-astro-name"> Francisco Rubio </span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-astro-details">
+              <p>
+                <span class="modal-bold">Birthday: </span>Dec. 11, 1975
+                <br>
+                <span class="modal-bold">Born: </span>Los Angeles, California
+                <br>
+                <span class="modal-bold">Spaceflights: </span>Expedition 67/68
+                <br>
+                <span class="modal-bold">Fun Fact: </span>Francisco lived in El Salvador when he was a kid.
+                <br>
+                <br>
+                Astronaut Francisco Rubio is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                Francisco grew up in Miami, Florida. Before becoming an astronaut, he was a helicopter pilot in the Army, a parachute Jumpmaster, and a family doctor and flight surgeon. This is his first trip to space.
+                 
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a data-bs-toggle="modal" href="#denis-modal">
+              <div class="modal-prev-astro">
+                <img src="./Images/CarouselArrowLeft.png" />
+                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
+              </div>
+            </a>
+            <a data-bs-toggle="modal" href="#example-modal">
+              <div class="modal-next-astro modal-hide-arrow">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
               </div>

@@ -17,19 +17,20 @@ body {
 }
 .swiper-button-next,
 .swiper-button-prev {
-  background-size: contain;
+  background-size: 30%;
   background-repeat: no-repeat;
-  width: 3vw;
-  height: 7vw;
-  top: 37%;
+  background-position: 50%;
+  width: 10vw;
+  height: 96%;
+  top: 2%;
 }
 .swiper-button-next {
   background-image: url("/src/Images/CarouselArrowRight.png");
-  right: -9vw;
+  right: -12vw;
 }
 .swiper-button-prev {
   background-image: url("/src/Images/CarouselArrowLeft.png");
-  left: -9vw;
+  left: -12vw;
 }
 /* :root {
   --swiper-navigation-size: 130px;
