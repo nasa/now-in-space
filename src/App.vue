@@ -6,6 +6,10 @@
       alt="Space Station Background"
     />
     <div class="ContentsContainer">
+      <div class="header">
+        <p>MEET THE ASTRONAUTS NOW IN SPACE</p>
+      </div>
+
       <div class="NASALogo">
         <a href="https://www.nasa.gov/" target="_blank">
           <img src="./Images/Branding/NASALogo.png" alt="Nasa Meatball" />
@@ -247,9 +251,6 @@
         </main>
       </div>
 
-      <div class="footer">
-        <p>MEET THE ASTRONAUTS NOW IN SPACE</p>
-      </div>
       <!--End of Carousel-->
     </div>
     <!--End of Contents Container-->
