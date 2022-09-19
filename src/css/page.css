@@ -306,7 +306,6 @@ body {
   background-image: url("../Images/Astronauts/docbrown.png");
 }
 
-
 .CardCrop {
   clip-path: polygon(
     /*Top Left Corner*/ 4.5% 3%,
@@ -364,18 +363,22 @@ body {
 
 @media only screen and (min-width: 1400px) and (max-width: 1800px) {
   .LongAstronautName {
-  
-    font-size: 1.3vw;
+    font-size: 1.4vw;
   }
- }
+}
 
- /*Though at this point the whole page pretty much breaks so no real reason to have this*/
- @media only screen and (max-width: 500px) {
+@media only screen and (min-width: 501px) and (max-width: 1399px) {
   .LongAstronautName {
-  
-    font-size: 1.1vw;
+    font-size: 1.2vw;
   }
- }
+}
+
+/*Though at this point the whole page pretty much breaks so no real reason to have this*/
+@media only screen and (max-width: 500px) {
+  .LongAstronautName {
+    font-size: 1vw;
+  }
+}
 
 .swiper-button-next-u {
   position: absolute;
@@ -406,7 +409,6 @@ body {
 }
 
 .modal-content {
-
   margin-left: auto;
   margin-right: auto;
 
@@ -443,16 +445,13 @@ body {
   background-color: transparent;
 }
 
-
 .btn-close {
-  
   width: 2em;
   height: 2em;
 
   background: url("../Images/NowInSpaceCloseX.png");
   background-size: contain;
 }
-
 
 .modal-card {
   position: absolute;
@@ -611,7 +610,7 @@ body {
   pointer-events: none;
 }
 
-.modal-crew-small-text{
+.modal-crew-small-text {
   font-size: 1.4vw;
 }
 
@@ -620,7 +619,6 @@ body {
 
   top: 3%;
   right: 2%;
-
 }
 
 /* Astronaut Modals */
@@ -653,7 +651,7 @@ body {
   right: 10%;
 
   color: blue;
-  font-size: 2rem;
+  font-size: 4vw;
   font-weight: bold;
 }
 
@@ -700,7 +698,7 @@ body {
   margin-bottom: 0px;
 
   color: blue;
-  font-size: 1rem;
+  font-size: 2vw;
   line-height: 1;
   font-weight: bold;
   align-items: center;
@@ -717,7 +715,7 @@ body {
   margin-bottom: 0px;
 
   color: blue;
-  font-size: 1rem;
+  font-size: 2vw;
   line-height: 1;
   text-align: right;
   font-weight: bold;
@@ -735,7 +733,7 @@ body {
   color: white;
   font-weight: bold;
   font-size: 2.6vw;
-  line-height: 100%;
+  line-height: 95%;
 
   background-color: rgba(7, 125, 195, 255);
 
@@ -744,6 +742,41 @@ body {
   border-bottom: 3px solid rgba(49, 66, 206, 255);
 }
 
-.header p{
+.header p {
   margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+/* Target Mobile only, hopefully*/
+
+@media only screen and (max-width: 812px) {
+}
+
+/* Show message to rotate phone when not in lanscape mode*/
+/* Portrait */
+@media only screen and (max-device-width: 767px) and (orientation: portrait) {
+  .please-flip * {
+    visibility: hidden;
+  }
+
+  .flip-notice {
+    visibility: visible;
+  }
+}
+
+.flip-notice {
+  visibility: hidden;
+
+  position: fixed;
+  top: 0px;
+
+  height: 100%;
+
+  font-size: 8vw;
+  text-align: center;
+  color: white;
+}
+
+.flip-notice img {
+  max-width: 100%;
 }

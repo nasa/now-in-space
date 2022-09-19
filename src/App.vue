@@ -1,5 +1,5 @@
 <template>
-  <div class="pageContainer">
+  <div class="pageContainer please-flip">
     <img
       class="backgroundImage"
       src="./Images/NowInSpaceBackgroundWide.png"
@@ -166,7 +166,9 @@
                       alt="Fourth slide"
                     />
                     <div class="AstroImage samantha CardCrop3"></div>
-                    <div class="AstronautName LongAstronautName">Samantha Cristoforetti</div>
+                    <div class="AstronautName LongAstronautName">
+                      Samantha Cristoforetti
+                    </div>
                   </div>
                 </a>
               </div>
@@ -352,14 +354,19 @@
             <div class="modal-crew-details">
               <p>
                 <span class="modal-crew-name">SpaceX Crew-4</span>
-                <br>
+                <br />
                 <span class="modal-bold">Launch Date: </span>April 27, 2022
-                <br>
-                <span class="modal-bold">Launched From: </span>Kennedy Space Center in Florida
-                <br>
-                <span class="modal-bold">Spacecraft: </span>Crew Dragon named “Freedom”
-                <br>
-                <span class="modal-bold">Crew Members: </span><span class="modal-crew-flavor">(In order from the left)</span> Bob Hines, Samantha Cristoforetti, Jessica Watkins, Kjell Lindgren
+                <br />
+                <span class="modal-bold">Launched From: </span>Kennedy Space
+                Center in Florida
+                <br />
+                <span class="modal-bold">Spacecraft: </span>Crew Dragon named
+                “Freedom”
+                <br />
+                <span class="modal-bold">Crew Members: </span
+                ><span class="modal-crew-flavor">(In order from the left)</span>
+                Bob Hines, Samantha Cristoforetti, Jessica Watkins, Kjell
+                Lindgren
               </p>
             </div>
           </div>
@@ -389,10 +396,15 @@
             ></button>
             <div class="modal-crew-details modal-crew-small-text">
               <p>
-                Each mission on the space station has its own patch. The Expedition 67 crew planned what would be on its patch. Then, artists designed it.
-                <br><br>
-                This round mission patch shows the space station soaring above Earth. The Sun shines brightly through a big number 67, and three large stars shine in the background. These stars represent the United States, Russia, and Italy. These countries have crew members onboard during the mission. 
-
+                Each mission on the space station has its own patch. The
+                Expedition 67 crew planned what would be on its patch. Then,
+                artists designed it.
+                <br /><br />
+                This round mission patch shows the space station soaring above
+                Earth. The Sun shines brightly through a big number 67, and
+                three large stars shine in the background. These stars represent
+                the United States, Russia, and Italy. These countries have crew
+                members onboard during the mission.
               </p>
             </div>
           </div>
@@ -423,14 +435,17 @@
             <div class="modal-crew-details">
               <p>
                 <span class="modal-crew-name">Soyuz MS-21 Crew</span>
-                <br>
+                <br />
                 <span class="modal-bold">Launch Date: </span>March 18, 2022
-                <br>
-                <span class="modal-bold">Launched From: </span>Baikonur Cosmodrome in Kazakhstan
-                <br>
+                <br />
+                <span class="modal-bold">Launched From: </span>Baikonur
+                Cosmodrome in Kazakhstan
+                <br />
                 <span class="modal-bold">Spacecraft: </span>Soyuz
-                <br>
-                <span class="modal-bold">Crew Members: </span><span class="modal-crew-flavor">(In order from the left)</span> Sergey Korsakov, Oleg Artemyev, Denis Matveev
+                <br />
+                <span class="modal-bold">Crew Members: </span
+                ><span class="modal-crew-flavor">(In order from the left)</span>
+                Sergey Korsakov, Oleg Artemyev, Denis Matveev
               </p>
             </div>
           </div>
@@ -473,18 +488,23 @@
             <div class="modal-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>Jan. 11, 1975
-                <br>
-                <span class="modal-bold">Born: </span>Fayetteville, North Carolina
-                <br>
+                <br />
+                <span class="modal-bold">Born: </span>Fayetteville, North
+                Carolina
+                <br />
                 <span class="modal-bold">Spaceflights: </span>Expedition 67/68
-                <br>
-                <span class="modal-bold">Fun Fact: </span>Bob attended Space Camp when he was 14 years old.
-                <br>
-                <br>
-                Astronaut Bob Hines is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
-                <br><br>
-                Bob grew up in Pennsylvania. He is a research pilot and has flown many different types of airplanes. This is his first trip to space. 
-
+                <br />
+                <span class="modal-bold">Fun Fact: </span>Bob attended Space
+                Camp when he was 14 years old.
+                <br />
+                <br />
+                Astronaut Bob Hines is a flight engineer. A flight engineer has
+                many jobs. These can include performing experiments, doing
+                spacewalks, and fixing things on the space station.
+                <br /><br />
+                Bob grew up in Pennsylvania. He is a research pilot and has
+                flown many different types of airplanes. This is his first trip
+                to space.
               </p>
             </div>
           </div>
@@ -541,16 +561,19 @@
             <div class="modal-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>Dec. 28, 1970
-                <br>
+                <br />
                 <span class="modal-bold">Born: </span>Riga, Latvia
-                <br>
-                <span class="modal-bold">Spaceflights: </span>Expedition 39/40, Expedition 55/56, Expedition 66/67
-                <br>
-                <br>
-                Cosmonaut Oleg Artemyev is the commander for Expedition 67. The commander is in charge of the mission and makes sure it is a success.
-                <br><br>
-                This is Oleg’s third stay on the space station. He has spent more than 450 days in space.  
-
+                <br />
+                <span class="modal-bold">Spaceflights: </span>Expedition 39/40,
+                Expedition 55/56, Expedition 66/67
+                <br />
+                <br />
+                Cosmonaut Oleg Artemyev is the commander for Expedition 67. The
+                commander is in charge of the mission and makes sure it is a
+                success.
+                <br /><br />
+                This is Oleg’s third stay on the space station. He has spent
+                more than 450 days in space.
               </p>
             </div>
           </div>
@@ -607,18 +630,24 @@
             <div class="modal-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>May 14, 1988
-                <br>
+                <br />
                 <span class="modal-bold">Born: </span>Gaithersburg, Maryland
-                <br>
+                <br />
                 <span class="modal-bold">Spaceflights: </span>Expedition 67/68
-                <br>
-                <span class="modal-bold">Fun Fact: </span>Jessica played rugby on the United States women’s national team.
-                <br>
-                <br>
-                Astronaut Jessica Watkins is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
-                <br><br>
-                Jessica grew up in Colorado. Before becoming an astronaut, she studied geology. Geology is the study of rocks. She is interested in what rocks on the Moon and Mars might be like. This is her first trip to space. 
-
+                <br />
+                <span class="modal-bold">Fun Fact: </span>Jessica played rugby
+                on the United States women’s national team.
+                <br />
+                <br />
+                Astronaut Jessica Watkins is a flight engineer. A flight
+                engineer has many jobs. These can include performing
+                experiments, doing spacewalks, and fixing things on the space
+                station.
+                <br /><br />
+                Jessica grew up in Colorado. Before becoming an astronaut, she
+                studied geology. Geology is the study of rocks. She is
+                interested in what rocks on the Moon and Mars might be like.
+                This is her first trip to space.
               </p>
             </div>
           </div>
@@ -675,18 +704,24 @@
             <div class="modal-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>April 26, 1977
-                <br>
+                <br />
                 <span class="modal-bold">Born: </span>Milan, Italy
-                <br>
-                <span class="modal-bold">Spaceflights: </span>Expedition 42/43, Expedition 67/68
-                <br>
-                <span class="modal-bold">Fun Fact: </span>Samantha can speak Italian, English, German, French, and Russian.
-                <br>
-                <br>
-                Astronaut Samantha Cristoforetti is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
-                <br><br>
-                Samantha is flying for the European Space Agency (ESA). She is the first Italian woman to be an astronaut. This is her second trip to space. She has spent more than 300 days in space. 
-
+                <br />
+                <span class="modal-bold">Spaceflights: </span>Expedition 42/43,
+                Expedition 67/68
+                <br />
+                <span class="modal-bold">Fun Fact: </span>Samantha can speak
+                Italian, English, German, French, and Russian.
+                <br />
+                <br />
+                Astronaut Samantha Cristoforetti is a flight engineer. A flight
+                engineer has many jobs. These can include performing
+                experiments, doing spacewalks, and fixing things on the space
+                station.
+                <br /><br />
+                Samantha is flying for the European Space Agency (ESA). She is
+                the first Italian woman to be an astronaut. This is her second
+                trip to space. She has spent more than 300 days in space.
               </p>
             </div>
           </div>
@@ -743,16 +778,18 @@
             <div class="modal-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>Sept. 1, 1984
-                <br>
+                <br />
                 <span class="modal-bold">Born: </span>Frunze, Kyrgyzstan
-                <br>
+                <br />
                 <span class="modal-bold">Spaceflights: </span>Expedition 66/67
-                <br>
-                <br>
-                Cosmonaut Sergey Korsakov is a flight engineer for the mission. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
-                <br><br>
+                <br />
+                <br />
+                Cosmonaut Sergey Korsakov is a flight engineer for the mission.
+                A flight engineer has many jobs. These can include performing
+                experiments, doing spacewalks, and fixing things on the space
+                station.
+                <br /><br />
                 This is Sergey’s first trip to space.
-
               </p>
             </div>
           </div>
@@ -809,16 +846,18 @@
             <div class="modal-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>April 25, 1983
-                <br>
+                <br />
                 <span class="modal-bold">Born: </span>St. Petersburg, Russia
-                <br>
+                <br />
                 <span class="modal-bold">Spaceflights: </span>Expedition 66/67
-                <br>
-                <br>
-                Cosmonaut Denis Matveev is a flight engineer for the mission. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
-                <br><br>
+                <br />
+                <br />
+                Cosmonaut Denis Matveev is a flight engineer for the mission. A
+                flight engineer has many jobs. These can include performing
+                experiments, doing spacewalks, and fixing things on the space
+                station.
+                <br /><br />
                 This is Denis’s first trip to space.
-
               </p>
             </div>
           </div>
@@ -875,20 +914,27 @@
             <div class="modal-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>Jan. 23, 1973
-                <br>
+                <br />
                 <span class="modal-bold">Born: </span>Taipei, Taiwan
-                <br>
-                <span class="modal-bold">Spaceflights: </span>Expedition 44/45, Expedition 67/68
-                <br>
-                <span class="modal-bold">Fun Fact: </span>Kjell is an Eagle Scout.
-                <br>
-                <br>
-                Astronaut Kjell Lindgren is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
-                <br><br>
-                Kjell was born in Taiwan but spent most of his childhood in England. He finished high school in Virginia. Kjell is a medical doctor and was part of the parachute team at the U.S. Air Force Academy. 
-                <br><br>
-                This is Kjell’s second stay on the space station. He has spent more than 250 days in space. 
-
+                <br />
+                <span class="modal-bold">Spaceflights: </span>Expedition 44/45,
+                Expedition 67/68
+                <br />
+                <span class="modal-bold">Fun Fact: </span>Kjell is an Eagle
+                Scout.
+                <br />
+                <br />
+                Astronaut Kjell Lindgren is a flight engineer. A flight engineer
+                has many jobs. These can include performing experiments, doing
+                spacewalks, and fixing things on the space station.
+                <br /><br />
+                Kjell was born in Taiwan but spent most of his childhood in
+                England. He finished high school in Virginia. Kjell is a medical
+                doctor and was part of the parachute team at the U.S. Air Force
+                Academy.
+                <br /><br />
+                This is Kjell’s second stay on the space station. He has spent
+                more than 250 days in space.
               </p>
             </div>
           </div>
@@ -945,18 +991,21 @@
             <div class="modal-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>Feb. 19, 1975
-                <br>
+                <br />
                 <span class="modal-bold">Born: </span>Yekaterinburg, Russia
-                <br>
-                <span class="modal-bold">Spaceflights: </span>Expedition 56/57, Expedition 67/68
-                <br>
-                <br>
-                Cosmonaut Sergey Prokopyev is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
-                <br><br>
-                This is Sergey’s second stay on the space station. He spent 196 days in space on his first mission in 2018. 
-                <br><br>
-                 
-
+                <br />
+                <span class="modal-bold">Spaceflights: </span>Expedition 56/57,
+                Expedition 67/68
+                <br />
+                <br />
+                Cosmonaut Sergey Prokopyev is a flight engineer. A flight
+                engineer has many jobs. These can include performing
+                experiments, doing spacewalks, and fixing things on the space
+                station.
+                <br /><br />
+                This is Sergey’s second stay on the space station. He spent 196
+                days in space on his first mission in 2018.
+                <br /><br />
               </p>
             </div>
           </div>
@@ -1013,16 +1062,17 @@
             <div class="modal-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>July 10, 1983
-                <br>
+                <br />
                 <span class="modal-bold">Born: </span>Kustanai, Kazakhstan
-                <br>
+                <br />
                 <span class="modal-bold">Spaceflights: </span>Expedition 67/68
-                <br>
-                <br>
-                Cosmonaut Dmitry Petelin is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
-                <br><br>
+                <br />
+                <br />
+                Cosmonaut Dmitry Petelin is a flight engineer. A flight engineer
+                has many jobs. These can include performing experiments, doing
+                spacewalks, and fixing things on the space station.
+                <br /><br />
                 This is Dmitry’s first trip to space.
-
               </p>
             </div>
           </div>
@@ -1079,18 +1129,24 @@
             <div class="modal-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>Dec. 11, 1975
-                <br>
+                <br />
                 <span class="modal-bold">Born: </span>Los Angeles, California
-                <br>
+                <br />
                 <span class="modal-bold">Spaceflights: </span>Expedition 67/68
-                <br>
-                <span class="modal-bold">Fun Fact: </span>Francisco lived in El Salvador when he was a kid.
-                <br>
-                <br>
-                Astronaut Francisco Rubio is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
-                <br><br>
-                Francisco grew up in Miami, Florida. Before becoming an astronaut, he was a helicopter pilot in the Army, a parachute Jumpmaster, and a family doctor and flight surgeon. This is his first trip to space.
-                 
+                <br />
+                <span class="modal-bold">Fun Fact: </span>Francisco lived in El
+                Salvador when he was a kid.
+                <br />
+                <br />
+                Astronaut Francisco Rubio is a flight engineer. A flight
+                engineer has many jobs. These can include performing
+                experiments, doing spacewalks, and fixing things on the space
+                station.
+                <br /><br />
+                Francisco grew up in Miami, Florida. Before becoming an
+                astronaut, he was a helicopter pilot in the Army, a parachute
+                Jumpmaster, and a family doctor and flight surgeon. This is his
+                first trip to space.
               </p>
             </div>
           </div>
@@ -1173,6 +1229,14 @@
     </div>
 
     <!--End Of Page Container -->
+  </div>
+
+  <div class="flip-notice">
+    <p>Please rotate your phone to landscape view.</p>
+    <img
+      src="https://pic.onlinewebfonts.com/svg/img_13285.png"
+      alt="Please rotate your phone to landscape view"
+    />
   </div>
 </template>
 
