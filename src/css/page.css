@@ -1,7 +1,7 @@
 /* iOS visibility hotfix for transformed elements zindex iOS bug*/
 body.modal-open .iOS-visbility-hotfix {
   opacity: 0;
-  transition: opacity 1000ms;
+  transition: opacity 100ms;
 
   @supports (-webkit-touch-callout: none) {
     /* CSS specific to iOS devices */
@@ -380,30 +380,6 @@ body {
   }
 }
 
-.swiper-button-next-u {
-  position: absolute;
-
-  right: 0%;
-
-  width: 5%;
-}
-
-.swiper-button-prev-u {
-  position: absolute;
-
-  left: 0%;
-
-  width: 5%;
-}
-
-.swiper-button-next-u img {
-  width: 100%;
-}
-
-.swiper-button-prev-u img {
-  width: 100%;
-}
-
 .modal {
   position: absolute;
 }
@@ -748,9 +724,133 @@ body {
 }
 
 /* Target Mobile only, hopefully*/
+/* various sizings of text mostly*/
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+  .backgroundImage {
+    max-height: 80vh;
+  }
 
-@media only screen and (max-width: 812px) {
+  .AstronautName {
+    font-size: 1.1vw;
+  }
+
+  .LongAstronautName {
+    font-size: 0.95vw;
+  }
+
+  .btn-close {
+    width: 1em;
+    height: 1em;
+  }
+
+  .modal-ship-details {
+    font-size: 2vw;
+  }
+
+  .modal-crew-details {
+    font-size: 1.6vw;
+  }
+
+  .modal-crew-small-text {
+    font-size: 1.3vw;
+  }
+
+  .modal-astro-card-name {
+    font-size: 1vw;
+  }
+
+  .modal-astro-name {
+    font-size: 2vw;
+  }
+
+  .modal-astro-details {
+    top: 1%;
+    font-size: 1.4vw;
+  }
+
+  .long-astro-details {
+    font-size: 1.3vw;
+  }
+
+  .modal-astro-arrows-prev {
+    font-size: 1.2vw;
+    line-height: 1;
+  }
+
+  .modal-astro-arrows-next {
+    font-size: 1.2vw;
+    line-height: 1;
+  }
+
+  .header {
+    font-size: 1.9vw;
+    line-height: 95%;
+  }
 }
+/*
+@media only screen and (max-width: 812px) {
+  .backgroundImage {
+    max-height: 80vh;
+  }
+
+  .AstronautName {
+    font-size: 1.1vw;
+  }
+
+  .LongAstronautName {
+    font-size: 0.95vw;
+  }
+
+  .btn-close {
+    width: 1em;
+    height: 1em;
+  }
+
+  .modal-ship-details {
+    font-size: 2vw;
+  }
+
+  .modal-crew-details {
+    font-size: 1.6vw;
+  }
+
+  .modal-crew-small-text {
+    font-size: 1.3vw;
+  }
+
+  .modal-astro-card-name {
+    font-size: 1vw;
+  }
+
+  .modal-astro-name {
+    font-size: 2vw;
+  }
+
+  .modal-astro-details {
+    top: 1%;
+    font-size: 1.4vw;
+  }
+
+  .long-astro-details {
+    font-size: 1.3vw;
+  }
+
+  .modal-astro-arrows-prev {
+    font-size: 1.2vw;
+    line-height: 1;
+  }
+
+  .modal-astro-arrows-next {
+    font-size: 1.2vw;
+    line-height: 1;
+  }
+
+  .header {
+    font-size: 1.9vw;
+    line-height: 95%;
+  }
+}
+*/
 
 /* Show message to rotate phone when not in lanscape mode*/
 /* Portrait */
