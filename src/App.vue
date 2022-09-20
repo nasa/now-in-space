@@ -1232,11 +1232,10 @@
   </div>
 
   <div class="flip-notice">
-    <p>Please rotate your phone to landscape view.</p>
-    <img
-      src="https://pic.onlinewebfonts.com/svg/img_13285.png"
-      alt="Please rotate your phone to landscape view"
-    />
+    <div class="message">
+      <p>Please rotate your phone to landscape view.</p>
+    </div>
+    <div class="phone"></div>
   </div>
 </template>
 

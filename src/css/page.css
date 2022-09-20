@@ -399,6 +399,8 @@ body {
   max-height: 95vh;
 
   height: 90%;
+
+  margin-top: 1rem;
 }
 
 /*Hides the borders in the modals*/
@@ -738,6 +740,10 @@ body {
     font-size: 0.95vw;
   }
 
+  .modal-dialog {
+    margin-top: 0.5rem;
+  }
+
   .btn-close {
     width: 1em;
     height: 1em;
@@ -852,31 +858,62 @@ body {
 }
 */
 
+/* phone, message, and keyframes copied from https://codepen.io/fabiowallner/pen/YOyJbJ */
+/* tweaks by me*/
+
+.phone {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+
+  height: 50px;
+  width: 100px;
+  border: 3px solid white;
+  border-radius: 10px;
+  animation: rotate 1.5s ease-in-out infinite alternate;
+  /* display: none; */
+}
+
+.message {
+  color: white;
+  font-size: 1.3em;
+  margin-top: 40px;
+  /* display: none; */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+
+.flip-notice {
+  visibility: hidden;
+  display: none;
+
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+
+  width: 100%;
+}
+
 /* Show message to rotate phone when not in lanscape mode*/
 /* Portrait */
-@media only screen and (max-device-width: 767px) and (orientation: portrait) {
+@media (hover: none) and (pointer: coarse) and (orientation: portrait) {
   .please-flip * {
     visibility: hidden;
   }
 
   .flip-notice {
     visibility: visible;
+    display: block;
   }
-}
-
-.flip-notice {
-  visibility: hidden;
-
-  position: fixed;
-  top: 0px;
-
-  height: 100%;
-
-  font-size: 8vw;
-  text-align: center;
-  color: white;
-}
-
-.flip-notice img {
-  max-width: 100%;
 }
