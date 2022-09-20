@@ -911,7 +911,7 @@
             ></button>
           </div>
           <div class="modal-body">
-            <div class="modal-astro-details">
+            <div class="modal-astro-details long-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>Jan. 23, 1973
                 <br />
