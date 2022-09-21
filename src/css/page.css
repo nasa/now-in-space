@@ -95,6 +95,12 @@ body {
 
   width: 25%;
   height: 70%;
+
+  z-index: 50;
+}
+
+#ship1:focus {
+  border: solid 5px blue;
 }
 
 /*Soyuz*/
@@ -107,6 +113,8 @@ body {
 
   width: 28%;
   height: 70%;
+
+  z-index: 50;
 }
 
 .expeditionMonitors {
