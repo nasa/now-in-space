@@ -135,6 +135,7 @@ body {
 
 #MonitorLeft {
   position: absolute;
+  visibility: hidden;
 
   margin-top: -5%;
 
@@ -153,6 +154,7 @@ body {
 
 #MonitorRight {
   position: absolute;
+  visibility: hidden;
 
   margin-top: -5%;
 
@@ -170,12 +172,12 @@ body {
 #PatchLeft {
   position: absolute;
 
-  left: 25%;
-  right: 19%;
-  top: 25%;
-  bottom: 21%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
 
-  transform: rotateY(40deg) skew(-14deg, 14deg) rotateX(-10deg);
+  transform: rotateY(0deg) skew(-18deg, 18deg) rotateX(0deg);
 
   z-index: 0;
 }
@@ -622,6 +624,10 @@ body {
   pointer-events: none;
 }
 
+.long-astro-details {
+  font-size: 1.4vw;
+}
+
 .modal-astro-name {
   position: absolute;
 
@@ -775,7 +781,7 @@ body {
   }
 
   .long-astro-details {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
   }
 
   .modal-astro-arrows-prev {

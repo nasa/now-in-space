@@ -49,8 +49,8 @@
             />
             <div class="patch iOS-visbility-hotfix" id="PatchLeft">
               <img
-                src="https://www.nasa.gov/specials/kidsclub/nowinspace/expedition67-crew4/img/slide_12.png"
-                alt="Expedition 67 patch"
+                src="./Images/Expedition/SpaceXCrew.jpeg"
+                alt="SpaceX Crew 4"
               />
             </div>
           </a>
@@ -220,15 +220,45 @@
             </swiper-slide>
             <swiper-slide>
               <div class="Cards noselect iOS-visbility-hotfix">
-                <a data-bs-toggle="modal" href="#example-modal">
+                <a data-bs-toggle="modal" href="#sergey2-modal">
+                  <div class="astronaut-container">
+                    <img
+                      class="d-inline"
+                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                      alt="Eigth slide"
+                    />
+                    <div class="AstroImage sergey2 CardCrop3"></div>
+                    <div class="AstronautName">Sergey Prokopyev</div>
+                  </div>
+                </a>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="Cards noselect iOS-visbility-hotfix">
+                <a data-bs-toggle="modal" href="#dmitry-modal">
                   <div class="astronaut-container">
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
                       alt="Ninth slide"
                     />
-                    <div class="AstroImage docbrown CardCrop3"></div>
-                    <div class="AstronautName">Dr. Emmet Brown</div>
+                    <div class="AstroImage dmitry CardCrop3"></div>
+                    <div class="AstronautName">Dmitry Petelin</div>
+                  </div>
+                </a>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="Cards noselect iOS-visbility-hotfix">
+                <a data-bs-toggle="modal" href="#francisco-modal">
+                  <div class="astronaut-container">
+                    <img
+                      class="d-inline"
+                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                      alt="Tenth slide"
+                    />
+                    <div class="AstroImage francisco CardCrop3"></div>
+                    <div class="AstronautName">Francisco Rubio</div>
                   </div>
                 </a>
               </div>
@@ -318,10 +348,6 @@
                 time. When it returns from space, it uses parachutes and small
                 rockets to make a safe landing in the grassy plains of
                 Kazakhstan.
-                <a
-                  href="https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-the-soyuz-spacecraft-k-4"
-                  >Read More</a
-                >
               </p>
             </div>
           </div>
@@ -945,8 +971,8 @@
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#example-modal">
-              <div class="modal-next-astro modal-hide-arrow">
+            <a data-bs-toggle="modal" href="#sergey2-modal">
+              <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
               </div>
@@ -1010,14 +1036,14 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#denis-modal">
+            <a data-bs-toggle="modal" href="#kjell-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#example-modal">
-              <div class="modal-next-astro modal-hide-arrow">
+            <a data-bs-toggle="modal" href="#dmitry-modal">
+              <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
               </div>
@@ -1077,14 +1103,14 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#denis-modal">
+            <a data-bs-toggle="modal" href="#sergey2-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#example-modal">
-              <div class="modal-next-astro modal-hide-arrow">
+            <a data-bs-toggle="modal" href="#francisco-modal">
+              <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
               </div>
@@ -1151,7 +1177,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#denis-modal">
+            <a data-bs-toggle="modal" href="#dmitry-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
