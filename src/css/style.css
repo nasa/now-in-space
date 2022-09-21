@@ -26,11 +26,11 @@ body {
 }
 .swiper-button-next {
   background-image: url("/src/Images/CarouselArrowRight.png");
-  right: -12vw;
+  right: -10vw;
 }
 .swiper-button-prev {
   background-image: url("/src/Images/CarouselArrowLeft.png");
-  left: -12vw;
+  left: -10vw;
 }
 /* :root {
   --swiper-navigation-size: 130px;
