@@ -963,7 +963,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#sergey2-modal">
+            <a data-bs-toggle="modal" href="#denis-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>

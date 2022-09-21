@@ -99,10 +99,6 @@ body {
   z-index: 50;
 }
 
-#ship1:focus {
-  border: solid 5px blue;
-}
-
 /*Soyuz*/
 #Ship2 {
   position: absolute;
