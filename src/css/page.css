@@ -728,8 +728,8 @@ body {
 }
 
 .header p {
-  margin-bottom: 0%;
-  margin-top: 0%;
+  font-size: 2.6vw;
+  line-height: 110%;
 }
 
 /* Target Mobile only, hopefully*/
@@ -737,6 +737,11 @@ body {
 @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
   .backgroundImage {
     max-height: 80vh;
+  }
+
+  .header p {
+    font-size: 1.6vw;
+    line-height: 110%;
   }
 
   .AstronautName {
