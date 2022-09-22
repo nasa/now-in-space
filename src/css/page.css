@@ -361,29 +361,10 @@ body {
   padding-top: 3%;
   z-index: 100;
 
-  font-size: 1.4vw;
+  font-size: 2.2vmin;
 
   text-align: center;
   color: white;
-}
-
-@media only screen and (min-width: 1400px) and (max-width: 1800px) {
-  .LongAstronautName {
-    font-size: 1.4vw;
-  }
-}
-
-@media only screen and (min-width: 501px) and (max-width: 1399px) {
-  .LongAstronautName {
-    font-size: 1.2vw;
-  }
-}
-
-/*Though at this point the whole page pretty much breaks so no real reason to have this*/
-@media only screen and (max-width: 500px) {
-  .LongAstronautName {
-    font-size: 1vw;
-  }
 }
 
 .modal {
@@ -721,8 +702,6 @@ body {
   text-align: center;
   color: white;
   font-weight: bold;
-  font-size: 2.6vw;
-  line-height: 95%;
 
   background-color: rgba(7, 125, 195, 255);
 
@@ -732,8 +711,28 @@ body {
 }
 
 .header p {
-  font-size: 2.6vw;
+  font-size: 4.6vmin;
   line-height: 110%;
+}
+
+/* Desktop specific text-resizing*/
+
+@media (hover: hover) and (pointer: fine) and (max-aspect-ratio: 16/9) {
+  .header p {
+    font-size: 2.6vw;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) and (max-aspect-ratio: 16/9) {
+  .AstronautName {
+    font-size: 1.4vw;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) and (max-aspect-ratio: 16/9) {
+  .LongAstronautName {
+    font-size: 1.2vw;
+  }
 }
 
 /* Target Mobile only, hopefully*/
@@ -809,70 +808,15 @@ body {
     line-height: 95%;
   }
 }
-/*
-@media only screen and (max-width: 812px) {
-  .backgroundImage {
-    max-height: 80vh;
-  }
 
-  .AstronautName {
-    font-size: 1.1vw;
-  }
-
-  .LongAstronautName {
-    font-size: 0.95vw;
-  }
-
-  .btn-close {
-    width: 1em;
-    height: 1em;
-  }
-
-  .modal-ship-details {
-    font-size: 2vw;
-  }
-
-  .modal-crew-details {
-    font-size: 1.6vw;
-  }
-
-  .modal-crew-small-text {
-    font-size: 1.3vw;
-  }
-
-  .modal-astro-card-name {
-    font-size: 1vw;
-  }
-
-  .modal-astro-name {
-    font-size: 2vw;
-  }
-
-  .modal-astro-details {
-    top: 1%;
-    font-size: 1.4vw;
-  }
-
-  .long-astro-details {
-    font-size: 1.3vw;
-  }
-
-  .modal-astro-arrows-prev {
-    font-size: 1.2vw;
-    line-height: 1;
-  }
-
-  .modal-astro-arrows-next {
-    font-size: 1.2vw;
-    line-height: 1;
-  }
-
-  .header {
-    font-size: 1.9vw;
-    line-height: 95%;
+/* Hit only mobile firefox because their address bar is actually taken into account with vh. */
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+  @-moz-document url-prefix() {
+    .backgroundImage {
+      max-height: 100vh;
+    }
   }
 }
-*/
 
 /* phone, message, and keyframes copied from https://codepen.io/fabiowallner/pen/YOyJbJ */
 /* tweaks by me*/
