@@ -809,6 +809,15 @@ body {
   }
 }
 
+/* Hit only mobile firefox because their address bar is actually taken into account with vh. */
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+  @-moz-document url-prefix() {
+    .backgroundImage {
+      max-height: 100vh;
+    }
+  }
+}
+
 /* phone, message, and keyframes copied from https://codepen.io/fabiowallner/pen/YOyJbJ */
 /* tweaks by me*/
 
