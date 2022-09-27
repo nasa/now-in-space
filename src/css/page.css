@@ -752,7 +752,6 @@ body {
 }
 
 @media (hover: hover) and (pointer: fine) and (min-width: 3840px) {
-
   .modal-astro-details {
     font-size: 1.5vw;
   }
@@ -783,16 +782,16 @@ body {
   }
 
   .header p {
-    font-size: 1.6vw;
+    font-size: 3.4vmin;
     line-height: 110%;
   }
 
   .AstronautName {
-    font-size: 1.1vw;
+    font-size: 2.1vmin;
   }
 
   .LongAstronautName {
-    font-size: 0.95vw;
+    font-size: 1.9vmin;
   }
 
   .modal-dialog {
@@ -805,19 +804,19 @@ body {
   }
 
   .modal-ship-details {
-    font-size: 2vw;
+    font-size: 3.9vmin;
   }
 
   .modal-crew-details {
-    font-size: 1.6vw;
+    font-size: 2.6vmin;
   }
 
   .modal-crew-small-text {
-    font-size: 1.3vw;
+    font-size: 2.3vmin;
   }
 
   .modal-astro-card-name {
-    font-size: 1vw;
+    font-size: 2vmin;
   }
 
   .modal-astro-name {
@@ -826,11 +825,11 @@ body {
 
   .modal-astro-details {
     top: 1%;
-    font-size: 1.4vw;
+    font-size: 2.4vmin;
   }
 
   .long-astro-details {
-    font-size: 1.1vw;
+    font-size: 2.1vmin;
   }
 
   .modal-astro-arrows-prev {
@@ -841,11 +840,6 @@ body {
   .modal-astro-arrows-next {
     font-size: 1.2vw;
     line-height: 1;
-  }
-
-  .header {
-    font-size: 1.9vw;
-    line-height: 95%;
   }
 }
 
