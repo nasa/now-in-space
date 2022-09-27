@@ -124,13 +124,11 @@ body {
   right: 18%;
   bottom: 60%;
 
-  /*border: 1px solid greenyellow;*/
 }
 
 .monitor {
   width: 22%;
 
-  /* border: 1px solid aliceblue; */
 }
 
 .monitor img {
@@ -170,7 +168,6 @@ body {
 
   top: 0;
 
-  /* border: 1px solid blueviolet; */
 }
 
 #PatchLeft {
@@ -241,7 +238,6 @@ body {
   width: 100%;
   height: 100%;
 
-  /*border: 2px solid red;*/
 }
 
 .astronaut-container {
@@ -250,7 +246,6 @@ body {
   width: 100%;
   filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.6));
 
-  /*border: 1px solid chartreuse;*/
 }
 
 /* Good defaults for the position of the photo*/
@@ -726,7 +721,7 @@ body {
 
 @media (hover: hover) and (pointer: fine) and (max-aspect-ratio: 16/9) {
   .AstronautName {
-    font-size: 1.4vw;
+    font-size: 2.6vmin;
   }
 
   .modal-astro-card-name {
@@ -736,9 +731,27 @@ body {
 
 @media (hover: hover) and (pointer: fine) and (max-aspect-ratio: 16/9) {
   .LongAstronautName {
-    font-size: 1.2vw;
+    font-size: 2.5vmin;
   }
 }
+/* These next two handle the close button of the modal becoming huge when zooming in on desktop*/
+@media (hover: hover) and (pointer: fine) and (min-width: 480px) and (max-width: 640px) {
+
+  .btn-close {
+    width: 1em;
+    height: 1em;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) and (max-width: 480px) {
+
+  .btn-close {
+    width: 0.5em;
+    height: 0.5em;
+  }
+}
+
+/* The next two handle very large desktop resolutions*/
 
 @media (hover: hover) and (pointer: fine) and (min-width: 2560px) {
   .modal-astro-name {
@@ -748,6 +761,11 @@ body {
   .btn-close {
     width: 4em;
     height: 4em;
+  }
+
+  .astronaut-modal {
+    border: solid 12px rgb(0, 136, 248);
+    border-radius: 30px;
   }
 }
 
@@ -771,6 +789,11 @@ body {
   .btn-close {
     width: 8em;
     height: 8em;
+  }
+
+  .astronaut-modal {
+    border: solid 16px rgb(0, 136, 248);
+    border-radius: 50px;
   }
 }
 

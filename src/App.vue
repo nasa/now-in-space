@@ -550,6 +550,75 @@
       </div>
     </div>
 
+    <!--josh not yet in slider-->
+    <div
+      class="portfolio-modal modal"
+      id="josh-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content astronaut-modal">
+          <div class="modal-header">
+            <div class="Cards modal-card">
+              <div class="astronaut-container">
+                <img
+                  class="d-inline"
+                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                  alt="Josh Cassada"
+                />
+                <div class="AstroImage josh CardCrop3"></div>
+                <div class="AstronautName modal-astro-card-name">
+                  Josh Cassada
+                </div>
+              </div>
+            </div>
+            <span class="modal-astro-name"> Josh Cassada </span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-astro-details">
+              <p>
+                <span class="modal-bold">Birthday: </span>July 18, 1973
+                <br />
+                <span class="modal-bold">Born: </span>San Diego, California
+                <br />
+                <span class="modal-bold">Spaceflights: </span>Expedition 68/69
+                <br />
+                <span class="modal-bold">Fun Fact: </span>Josh has worked in mission control as a CAPCOM, the person who talks to the crew on the space station. 
+                <br />
+                <br />
+                Astronaut Josh Cassada is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                Before becoming an astronaut, Josh studied physics in college. Physics is the study of matter and energy. Josh also was a pilot in the U.S. Navy. He tested new airplane designs and taught other pilots how to fly. This is his first trip to space.
+
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a data-bs-toggle="modal" href="#example-modal">
+              <div class="modal-prev-astro modal-hide-arrow">
+                <img src="./Images/CarouselArrowLeft.png" />
+                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
+              </div>
+            </a>
+            <a data-bs-toggle="modal" href="#samantha-modal">
+              <div class="modal-next-astro">
+                <img src="./Images/CarouselArrowRight.png" />
+                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div
       class="portfolio-modal modal"
       id="samantha-modal"
@@ -695,6 +764,73 @@
       </div>
     </div>
     
+    <!--Anna not yet in slider-->
+    <div
+      class="portfolio-modal modal"
+      id="anna-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content astronaut-modal">
+          <div class="modal-header">
+            <div class="Cards modal-card">
+              <div class="astronaut-container">
+                <img
+                  class="d-inline"
+                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                  alt="Anna Kikina"
+                />
+                <div class="AstroImage anna CardCrop3"></div>
+                <div class="AstronautName modal-astro-card-name">
+                  Anna Kikina
+                </div>
+              </div>
+            </div>
+            <span class="modal-astro-name"> Anna Kikina </span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-astro-details">
+              <p>
+                <span class="modal-bold">Birthday: </span>Aug. 27, 1984
+                <br />
+                <span class="modal-bold">Born: </span>Novosibirsk, Russia
+                <br />
+                <span class="modal-bold">Spaceflights: </span>Expedition 68/69
+                <br />
+                <span class="modal-bold">Fun Fact: </span>Anna is the first Russian cosmonaut to fly on the SpaceX Crew Dragon.
+                <br />
+                <br />
+                Cosmonaut Anna Kikina is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                This is Anna’s first trip to space.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a data-bs-toggle="modal" href="#bob-modal">
+              <div class="modal-prev-astro">
+                <img src="./Images/CarouselArrowLeft.png" />
+                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
+              </div>
+            </a>
+            <a data-bs-toggle="modal" href="#kjell-modal">
+              <div class="modal-next-astro">
+                <img src="./Images/CarouselArrowRight.png" />
+                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div
       class="portfolio-modal modal"
@@ -827,6 +963,74 @@
           </div>
           <div class="modal-footer">
             <a data-bs-toggle="modal" href="#sergey-modal">
+              <div class="modal-prev-astro">
+                <img src="./Images/CarouselArrowLeft.png" />
+                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
+              </div>
+            </a>
+            <a data-bs-toggle="modal" href="#denis-modal">
+              <div class="modal-next-astro">
+                <img src="./Images/CarouselArrowRight.png" />
+                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Nicole Not yet In Slider-->
+    <div
+      class="portfolio-modal modal"
+      id="nicole-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content astronaut-modal">
+          <div class="modal-header">
+            <div class="Cards modal-card">
+              <div class="astronaut-container">
+                <img
+                  class="d-inline"
+                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                  alt="Nicole Mann"
+                />
+                <div class="AstroImage nicole CardCrop3"></div>
+                <div class="AstronautName modal-astro-card-name">
+                  Nicole Mann
+                </div>
+              </div>
+            </div>
+            <span class="modal-astro-name"> Nicole Mann </span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-astro-details">
+              <p>
+                <span class="modal-bold">Birthday: </span>June 27, 1977
+                <br />
+                <span class="modal-bold">Born: </span>Petaluma, California
+                <br />
+                <span class="modal-bold">Spaceflights: </span>Expedition 68/69
+                <br />
+                <span class="modal-bold">Fun Fact: </span>Nicole is the first Native American woman to fly in space. 
+                <br />
+                <br />
+                Astronaut Nicole Mann is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                Before becoming an astronaut, Nicole was a pilot in the military. She has flown more than 2,500 hours in 25 different types of aircraft. This included taking off and landing on giant aircraft carrier ships at sea. This is her first trip to space.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a data-bs-toggle="modal" href="#kjell-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
@@ -1109,6 +1313,74 @@
           </div>
           <div class="modal-footer">
             <a data-bs-toggle="modal" href="#sergey2-modal">
+              <div class="modal-prev-astro">
+                <img src="./Images/CarouselArrowLeft.png" />
+                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
+              </div>
+            </a>
+            <a data-bs-toggle="modal" href="#jessica-modal">
+              <div class="modal-next-astro">
+                <img src="./Images/CarouselArrowRight.png" />
+                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Koichi not yet in slider-->
+    <div
+      class="portfolio-modal modal"
+      id="koichi-modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content astronaut-modal">
+          <div class="modal-header">
+            <div class="Cards modal-card">
+              <div class="astronaut-container">
+                <img
+                  class="d-inline"
+                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                  alt="Koichi Wakata"
+                />
+                <div class="AstroImage koichi CardCrop3"></div>
+                <div class="AstronautName modal-astro-card-name">
+                  Koichi Wakata
+                </div>
+              </div>
+            </div>
+            <span class="modal-astro-name"> Koichi Wakata </span>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-astro-details">
+              <p>
+                <span class="modal-bold">Birthday: </span>Aug. 1, 1963
+                <br />
+                <span class="modal-bold">Born: </span>Saitama, Japan
+                <br />
+                <span class="modal-bold">Spaceflights: </span>STS-72, STS-92, Expedition 18/19/20, Expedition 38/39, Expedition 68/69
+                <br />
+                <span class="modal-bold">Fun Fact: </span>Koichi has flown to the space station on three different spacecraft: the space shuttle, Soyuz, and SpaceX Crew Dragon.
+                <br />
+                <br />
+                Astronaut Koichi Wakata is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                Koichi is is flying for the Japan Aerospace Exploration Agency (JAXA). This is his fifth trip to space and his second long-term stay on the space station. He has spent more than 345 days in space. 
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a data-bs-toggle="modal" href="#francisco-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
