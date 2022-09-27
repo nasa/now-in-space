@@ -387,7 +387,8 @@ body {
 
   height: 90%;
 
-  margin-top: 1rem;
+  margin-top: 2%;
+  margin-bottom: auto;
 }
 
 /*Hides the borders in the modals*/
@@ -668,7 +669,7 @@ body {
   margin-bottom: 0px;
 
   color: blue;
-  font-size: 2vw;
+  font-size: 1.8vw;
   line-height: 1;
   font-weight: bold;
   align-items: center;
@@ -685,7 +686,7 @@ body {
   margin-bottom: 0px;
 
   color: blue;
-  font-size: 2vw;
+  font-size: 1.8vw;
   line-height: 1;
   text-align: right;
   font-weight: bold;
@@ -727,11 +728,50 @@ body {
   .AstronautName {
     font-size: 1.4vw;
   }
+
+  .modal-astro-card-name {
+    font-size: 1.1vw;
+  }
 }
 
 @media (hover: hover) and (pointer: fine) and (max-aspect-ratio: 16/9) {
   .LongAstronautName {
     font-size: 1.2vw;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) and (min-width: 2560px) {
+  .modal-astro-name {
+    padding-top: 2%;
+  }
+
+  .btn-close {
+    width: 4em;
+    height: 4em;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) and (min-width: 3840px) {
+
+  .modal-astro-details {
+    font-size: 1.5vw;
+  }
+
+  .long-astro-details {
+    font-size: 1.3vw;
+  }
+
+  .modal-astro-arrows-prev {
+    font-size: 1.6vw;
+  }
+
+  .modal-astro-arrows-next {
+    font-size: 1.6vw;
+  }
+
+  .btn-close {
+    width: 8em;
+    height: 8em;
   }
 }
 
@@ -806,15 +846,6 @@ body {
   .header {
     font-size: 1.9vw;
     line-height: 95%;
-  }
-}
-
-/* Hit only mobile firefox because their address bar is actually taken into account with vh. */
-@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
-  @-moz-document url-prefix() {
-    .backgroundImage {
-      max-height: 100vh;
-    }
   }
 }
 
