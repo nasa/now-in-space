@@ -59,12 +59,12 @@
           <a data-bs-toggle="modal" href="#ex67-modal">
             <img
               src="./Images/NowInSpaceMonitorMiddle.png"
-              alt="Expedition 67 Computer Monitor"
+              alt="Expedition 68 Computer Monitor"
             />
             <div class="patch iOS-visbility-hotfix" id="PatchMiddle">
               <img
-                src="./Images/Expedition/67Patch.png"
-                alt="Expedition 67 patch"
+                src="./Images/Expedition/68Patch.png"
+                alt="Expedition 68 patch"
               />
             </div>
           </a>
@@ -107,25 +107,12 @@
             :pagination="{
               clickable: true,
             }"
+            :prevent-clicks="true"
+            :prevent-clicks-propagation="true"
             :watchSlidesProgress="true"
             @swiper="onSwiper"
             @slideChange="onSlideChange"
           >
-          <swiper-slide>
-              <div class="Cards noselect iOS-visbility-hotfix">
-                <a data-bs-toggle="modal" href="#oleg-modal">
-                  <div class="astronaut-container">
-                    <img
-                      class="d-inline"
-                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="First slide"
-                    />
-                    <div class="AstroImage oleg CardCrop3"></div>
-                    <div class="AstronautName">Oleg Artemyev</div>
-                  </div>
-                </a>
-              </div>
-            </swiper-slide>
             <swiper-slide>
               <div class="Cards noselect iOS-visbility-hotfix">
                 <a data-bs-toggle="modal" href="#samantha-modal">
@@ -133,7 +120,7 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Second slide"
+                      alt="First slide"
                     />
                     <div class="AstroImage samantha CardCrop3"></div>
                     <div class="AstronautName LongAstronautName">
@@ -150,25 +137,10 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Third slide"
+                      alt="Second slide"
                     />
                     <div class="AstroImage bob CardCrop3"></div>
                     <div class="AstronautName">Bob Hines</div>
-                  </div>
-                </a>
-              </div>
-            </swiper-slide>
-            <swiper-slide>
-              <div class="Cards noselect iOS-visbility-hotfix">
-                <a data-bs-toggle="modal" href="#sergey-modal">
-                  <div class="astronaut-container">
-                    <img
-                      class="d-inline"
-                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Fourth slide"
-                    />
-                    <div class="AstroImage sergey CardCrop3"></div>
-                    <div class="AstronautName">Sergey Korsakov</div>
                   </div>
                 </a>
               </div>
@@ -180,25 +152,10 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Fifth slide"
+                      alt="Third slide"
                     />
                     <div class="AstroImage kjell CardCrop3"></div>
                     <div class="AstronautName">Kjell Lindgren</div>
-                  </div>
-                </a>
-              </div>
-            </swiper-slide>
-            <swiper-slide>
-              <div class="Cards noselect iOS-visbility-hotfix">
-                <a data-bs-toggle="modal" href="#denis-modal">
-                  <div class="astronaut-container">
-                    <img
-                      class="d-inline"
-                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Sixth slide"
-                    />
-                    <div class="AstroImage denis CardCrop3"></div>
-                    <div class="AstronautName">Denis Matveev</div>
                   </div>
                 </a>
               </div>
@@ -210,7 +167,7 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Seventh slide"
+                      alt="Fourth slide"
                     />
                     <div class="AstroImage dmitry CardCrop3"></div>
                     <div class="AstronautName">Dmitry Petelin</div>
@@ -225,7 +182,7 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Eigth slide"
+                      alt="Fifth slide"
                     />
                     <div class="AstroImage sergey2 CardCrop3"></div>
                     <div class="AstronautName">Sergey Prokopyev</div>
@@ -240,7 +197,7 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Ninth slide"
+                      alt="Sixth slide"
                     />
                     <div class="AstroImage francisco CardCrop3"></div>
                     <div class="AstronautName">Francisco Rubio</div>
@@ -255,7 +212,7 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Tenth slide"
+                      alt="Seventh slide"
                     />
                     <div class="AstroImage jessica CardCrop3"></div>
                     <div class="AstronautName">Jessica Watkins</div>
@@ -412,7 +369,7 @@
           <div class="modal-crew-body">
             <img
               class="modal-crew-img modal-crew-img-pos2"
-              src="./Images/Expedition/67Patch.png"
+              src="./Images/Expedition/68Patch.png"
             />
             <button
               type="button"
@@ -422,15 +379,10 @@
             ></button>
             <div class="modal-crew-details modal-crew-small-text">
               <p>
-                Each mission on the space station has its own patch. The
-                Expedition 67 crew planned what would be on its patch. Then,
-                artists designed it.
-                <br /><br />
-                This round mission patch shows the space station soaring above
-                Earth. The Sun shines brightly through a big number 67, and
-                three large stars shine in the background. These stars represent
-                the United States, Russia, and Italy. These countries have crew
-                members onboard during the mission.
+                Each mission on the space station has its own patch. The Expedition 68 crew planned what would be on its patch. Then, artists designed it.
+                <br/><br/>
+                This round mission patch shows the space station soaring above Earth. The Sun shines brightly in the distance. The Moon peeks over Earth’s horizon and a red Mars is seen nearby.This represents NASA’s mission to send astronauts to the Moon and on to Mars. The number 68 is seen in the sky with seven bright stars. These stars represent the members of the crew.
+
               </p>
             </div>
           </div>
@@ -480,75 +432,6 @@
     </div>
 
     <!-- Astronaut Modals -->
-
-    <div
-      class="portfolio-modal modal"
-      id="oleg-modal"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content astronaut-modal">
-          <div class="modal-header">
-            <div class="Cards modal-card">
-              <div class="astronaut-container">
-                <img
-                  class="d-inline"
-                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                  alt="Oleg Artemyev"
-                />
-                <div class="AstroImage oleg CardCrop3"></div>
-                <div class="AstronautName modal-astro-card-name">
-                  Oleg Artemyev
-                </div>
-              </div>
-            </div>
-            <span class="modal-astro-name"> Oleg Artemyev </span>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="modal-astro-details">
-              <p>
-                <span class="modal-bold">Birthday: </span>Dec. 28, 1970
-                <br />
-                <span class="modal-bold">Born: </span>Riga, Latvia
-                <br />
-                <span class="modal-bold">Spaceflights: </span>Expedition 39/40,
-                Expedition 55/56, Expedition 66/67
-                <br />
-                <br />
-                Cosmonaut Oleg Artemyev is the commander for Expedition 67. The
-                commander is in charge of the mission and makes sure it is a
-                success.
-                <br /><br />
-                This is Oleg’s third stay on the space station. He has spent
-                more than 450 days in space.
-              </p>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#example-modal">
-              <div class="modal-prev-astro modal-hide-arrow">
-                <img src="./Images/CarouselArrowLeft.png" />
-                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
-              </div>
-            </a>
-            <a data-bs-toggle="modal" href="#samantha-modal">
-              <div class="modal-next-astro">
-                <img src="./Images/CarouselArrowRight.png" />
-                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!--josh not yet in slider-->
     <div
@@ -664,10 +547,7 @@
                 Italian, English, German, French, and Russian.
                 <br />
                 <br />
-                Astronaut Samantha Cristoforetti is a flight engineer. A flight
-                engineer has many jobs. These can include performing
-                experiments, doing spacewalks, and fixing things on the space
-                station.
+                Astronaut Samantha Cristoforetti is the commander for Expedition 68. The commander is in charge of the mission and makes sure it is a success.
                 <br /><br />
                 Samantha is flying for the European Space Agency (ESA). She is
                 the first Italian woman to be an astronaut. This is her second
@@ -676,8 +556,8 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#oleg-modal">
-              <div class="modal-prev-astro">
+            <a data-bs-toggle="modal" href="#josh-modal">
+              <div class="modal-prev-astro modal-hide-arrow">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
@@ -753,7 +633,7 @@
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#sergey-modal">
+            <a data-bs-toggle="modal" href="#kjell-modal">
               <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
@@ -830,77 +710,7 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div
-      class="portfolio-modal modal"
-      id="sergey-modal"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content astronaut-modal">
-          <div class="modal-header">
-            <div class="Cards modal-card">
-              <div class="astronaut-container">
-                <img
-                  class="d-inline"
-                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                  alt="Sergey Korsakov "
-                />
-                <div class="AstroImage sergey CardCrop3"></div>
-                <div class="AstronautName modal-astro-card-name">
-                  Sergey Korsakov
-                </div>
-              </div>
-            </div>
-            <span class="modal-astro-name"> Sergey Korsakov </span>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="modal-astro-details">
-              <p>
-                <span class="modal-bold">Birthday: </span>Sept. 1, 1984
-                <br />
-                <span class="modal-bold">Born: </span>Frunze, Kyrgyzstan
-                <br />
-                <span class="modal-bold">Spaceflights: </span>Expedition 66/67
-                <br />
-                <br />
-                Cosmonaut Sergey Korsakov is a flight engineer for the mission.
-                A flight engineer has many jobs. These can include performing
-                experiments, doing spacewalks, and fixing things on the space
-                station.
-                <br /><br />
-                This is Sergey’s first trip to space.
-              </p>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#bob-modal">
-              <div class="modal-prev-astro">
-                <img src="./Images/CarouselArrowLeft.png" />
-                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
-              </div>
-            </a>
-            <a data-bs-toggle="modal" href="#kjell-modal">
-              <div class="modal-next-astro">
-                <img src="./Images/CarouselArrowRight.png" />
-                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    
+    </div> 
 
     <div
       class="portfolio-modal modal"
@@ -962,13 +772,13 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#sergey-modal">
+            <a data-bs-toggle="modal" href="#bob-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#denis-modal">
+            <a data-bs-toggle="modal" href="#dmitry-modal">
               <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
@@ -1049,76 +859,6 @@
 
     <div
       class="portfolio-modal modal"
-      id="denis-modal"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content astronaut-modal">
-          <div class="modal-header">
-            <div class="Cards modal-card">
-              <div class="astronaut-container">
-                <img
-                  class="d-inline"
-                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                  alt="Denis Matveev"
-                />
-                <div class="AstroImage denis CardCrop3"></div>
-                <div class="AstronautName modal-astro-card-name">
-                  Denis Matveev
-                </div>
-              </div>
-            </div>
-            <span class="modal-astro-name"> Denis Matveev </span>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="modal-astro-details">
-              <p>
-                <span class="modal-bold">Birthday: </span>April 25, 1983
-                <br />
-                <span class="modal-bold">Born: </span>St. Petersburg, Russia
-                <br />
-                <span class="modal-bold">Spaceflights: </span>Expedition 66/67
-                <br />
-                <br />
-                Cosmonaut Denis Matveev is a flight engineer for the mission. A
-                flight engineer has many jobs. These can include performing
-                experiments, doing spacewalks, and fixing things on the space
-                station.
-                <br /><br />
-                This is Denis’s first trip to space.
-              </p>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#kjell-modal">
-              <div class="modal-prev-astro">
-                <img src="./Images/CarouselArrowLeft.png" />
-                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
-              </div>
-            </a>
-            <a data-bs-toggle="modal" href="#dmitry-modal">
-              <div class="modal-next-astro">
-                <img src="./Images/CarouselArrowRight.png" />
-                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    
-
-    <div
-      class="portfolio-modal modal"
       id="dmitry-modal"
       tabindex="-1"
       role="dialog"
@@ -1167,13 +907,13 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#denis-modal">
+            <a data-bs-toggle="modal" href="#kjell-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#sergey2-modal">
+            <a data-bs-toggle="modal" href="#sergey-modal">
               <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
@@ -1186,7 +926,7 @@
 
     <div
       class="portfolio-modal modal"
-      id="sergey2-modal"
+      id="sergey-modal"
       tabindex="-1"
       role="dialog"
       aria-hidden="true"
@@ -1312,7 +1052,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#sergey2-modal">
+            <a data-bs-toggle="modal" href="#sergey-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>

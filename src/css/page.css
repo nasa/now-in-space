@@ -186,9 +186,9 @@ body {
 #PatchMiddle {
   position: absolute;
 
-  left: 20%;
-  right: 20%;
-  top: 8%;
+  left: 26%;
+  right: 26%;
+  top: 9%;
   bottom: 5%;
 
   transform: rotateY(0deg) skew(-0deg, 0deg) rotateX(10deg);
@@ -528,9 +528,9 @@ body {
 .modal-crew-img {
   position: absolute;
   top: 14%;
-  left: 3%;
+  left: 6%;
 
-  width: 60%;
+  width: 48%;
 }
 
 .modal-crew-img-pos2 {
@@ -560,8 +560,8 @@ body {
 .modal-crew-details {
   position: absolute;
 
-  left: 65%;
-  right: 3%;
+  left: 60%;
+  right: 5%;
   top: 14%;
   bottom: 10%;
 
