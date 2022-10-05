@@ -115,12 +115,27 @@
           >
             <swiper-slide>
               <div class="Cards noselect iOS-visbility-hotfix">
+                <a data-bs-toggle="modal" href="#josh-modal">
+                  <div class="astronaut-container">
+                    <img
+                      class="d-inline"
+                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                      alt="First slide"
+                    />
+                    <div class="AstroImage josh CardCrop3"></div>
+                    <div class="AstronautName">Josh Cassada</div>
+                  </div>
+                </a>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="Cards noselect iOS-visbility-hotfix">
                 <a data-bs-toggle="modal" href="#samantha-modal">
                   <div class="astronaut-container card-shadow">
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="First slide"
+                      alt="Second slide"
                     />
                     <div class="AstroImage samantha CardCrop3"></div>
                     <div class="AstronautName LongAstronautName">
@@ -137,10 +152,25 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Second slide"
+                      alt="Third slide"
                     />
                     <div class="AstroImage bob CardCrop3"></div>
                     <div class="AstronautName">Bob Hines</div>
+                  </div>
+                </a>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="Cards noselect iOS-visbility-hotfix">
+                <a data-bs-toggle="modal" href="#anna-modal">
+                  <div class="astronaut-container">
+                    <img
+                      class="d-inline"
+                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                      alt="Fourth slide"
+                    />
+                    <div class="AstroImage anna CardCrop3"></div>
+                    <div class="AstronautName">Anna Kikina</div>
                   </div>
                 </a>
               </div>
@@ -152,10 +182,25 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Third slide"
+                      alt="Fifth slide"
                     />
                     <div class="AstroImage kjell CardCrop3"></div>
                     <div class="AstronautName">Kjell Lindgren</div>
+                  </div>
+                </a>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="Cards noselect iOS-visbility-hotfix">
+                <a data-bs-toggle="modal" href="#nicole-modal">
+                  <div class="astronaut-container">
+                    <img
+                      class="d-inline"
+                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                      alt="Sixth slide"
+                    />
+                    <div class="AstroImage nicole CardCrop3"></div>
+                    <div class="AstronautName">Nicole Mann</div>
                   </div>
                 </a>
               </div>
@@ -167,7 +212,7 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Fourth slide"
+                      alt="Seventh slide"
                     />
                     <div class="AstroImage dmitry CardCrop3"></div>
                     <div class="AstronautName">Dmitry Petelin</div>
@@ -177,14 +222,14 @@
             </swiper-slide>
             <swiper-slide>
               <div class="Cards noselect iOS-visbility-hotfix">
-                <a data-bs-toggle="modal" href="#sergey2-modal">
+                <a data-bs-toggle="modal" href="#sergey-modal">
                   <div class="astronaut-container">
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Fifth slide"
+                      alt="Eigth slide"
                     />
-                    <div class="AstroImage sergey2 CardCrop3"></div>
+                    <div class="AstroImage sergey CardCrop3"></div>
                     <div class="AstronautName">Sergey Prokopyev</div>
                   </div>
                 </a>
@@ -197,10 +242,25 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Sixth slide"
+                      alt="Ninth slide"
                     />
                     <div class="AstroImage francisco CardCrop3"></div>
                     <div class="AstronautName">Francisco Rubio</div>
+                  </div>
+                </a>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="Cards noselect iOS-visbility-hotfix">
+                <a data-bs-toggle="modal" href="#koichi-modal">
+                  <div class="astronaut-container">
+                    <img
+                      class="d-inline"
+                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
+                      alt="Tenth slide"
+                    />
+                    <div class="AstroImage koichi CardCrop3"></div>
+                    <div class="AstronautName">Koichi Wakata</div>
                   </div>
                 </a>
               </div>
@@ -212,7 +272,7 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Seventh slide"
+                      alt="Eleventh slide"
                     />
                     <div class="AstroImage jessica CardCrop3"></div>
                     <div class="AstronautName">Jessica Watkins</div>
@@ -433,7 +493,6 @@
 
     <!-- Astronaut Modals -->
 
-    <!--josh not yet in slider-->
     <div
       class="portfolio-modal modal"
       id="josh-modal"
@@ -466,7 +525,7 @@
             ></button>
           </div>
           <div class="modal-body">
-            <div class="modal-astro-details">
+            <div class="modal-astro-details long-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>July 18, 1973
                 <br />
@@ -520,7 +579,7 @@
                   alt="Samantha Cristoforetti"
                 />
                 <div class="AstroImage samantha CardCrop3"></div>
-                <div class="AstronautName modal-astro-card-name">
+                <div class="AstronautName modal-astro-card-name modal-astro-card-name-long">
                   Samantha Cristoforetti
                 </div>
               </div>
@@ -557,7 +616,7 @@
           </div>
           <div class="modal-footer">
             <a data-bs-toggle="modal" href="#josh-modal">
-              <div class="modal-prev-astro modal-hide-arrow">
+              <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
@@ -633,7 +692,7 @@
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#kjell-modal">
+            <a data-bs-toggle="modal" href="#anna-modal">
               <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
@@ -644,7 +703,6 @@
       </div>
     </div>
     
-    <!--Anna not yet in slider-->
     <div
       class="portfolio-modal modal"
       id="anna-modal"
@@ -772,13 +830,13 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#bob-modal">
+            <a data-bs-toggle="modal" href="#anna-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#dmitry-modal">
+            <a data-bs-toggle="modal" href="#nicole-modal">
               <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
@@ -789,7 +847,6 @@
       </div>
     </div>
 
-    <!--Nicole Not yet In Slider-->
     <div
       class="portfolio-modal modal"
       id="nicole-modal"
@@ -822,7 +879,7 @@
             ></button>
           </div>
           <div class="modal-body">
-            <div class="modal-astro-details">
+            <div class="modal-astro-details long-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>June 27, 1977
                 <br />
@@ -830,7 +887,7 @@
                 <br />
                 <span class="modal-bold">Spaceflights: </span>Expedition 68/69
                 <br />
-                <span class="modal-bold">Fun Fact: </span>Nicole is the first Native American woman to fly in space. 
+                <span class="modal-bold">Fun Fact: </span>Nicole is the first indigenous woman from NASA to go to space. She is registered with the Wailacki of the Round Valley Indian Tribes.
                 <br />
                 <br />
                 Astronaut Nicole Mann is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
@@ -846,7 +903,7 @@
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#denis-modal">
+            <a data-bs-toggle="modal" href="#dmitry-modal">
               <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
@@ -907,7 +964,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#kjell-modal">
+            <a data-bs-toggle="modal" href="#nicole-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
@@ -941,7 +998,7 @@
                   src="./Images/Astronauts/CardBackgroundBlue585x780.png"
                   alt="Sergey Prokopyev"
                 />
-                <div class="AstroImage sergey2 CardCrop3"></div>
+                <div class="AstroImage sergey CardCrop3"></div>
                 <div class="AstronautName modal-astro-card-name">
                   Sergey Prokopyev
                 </div>
@@ -1058,7 +1115,7 @@
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#jessica-modal">
+            <a data-bs-toggle="modal" href="#koichi-modal">
               <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
@@ -1069,7 +1126,6 @@
       </div>
     </div>
 
-    <!--Koichi not yet in slider-->
     <div
       class="portfolio-modal modal"
       id="koichi-modal"
@@ -1102,7 +1158,7 @@
             ></button>
           </div>
           <div class="modal-body">
-            <div class="modal-astro-details">
+            <div class="modal-astro-details long-astro-details">
               <p>
                 <span class="modal-bold">Birthday: </span>Aug. 1, 1963
                 <br />
@@ -1194,7 +1250,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#francisco-modal">
+            <a data-bs-toggle="modal" href="#koichi-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>

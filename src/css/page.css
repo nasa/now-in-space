@@ -267,10 +267,6 @@ body {
   background-image: url("../Images/Astronauts/BobHines.png");
 }
 
-.oleg {
-  background-image: url("../Images/Astronauts/OlegArtemyev.png");
-}
-
 .jessica {
   background-image: url("../Images/Astronauts/JessicaWatkins.png");
 }
@@ -279,19 +275,11 @@ body {
   background-image: url("../Images/Astronauts/SamanthaCristoforetti.jpg");
 }
 
-.sergey {
-  background-image: url("../Images/Astronauts/SergeyKorsakov.jpg");
-}
-
-.denis {
-  background-image: url("../Images/Astronauts/DenisMatveev.jpg");
-}
-
 .kjell {
   background-image: url("../Images/Astronauts/KjellLindgren.jpg");
 }
 
-.sergey2 {
+.sergey {
   background-image: url("../Images/Astronauts/SergeyProkopyev.jpg");
 }
 
@@ -301,6 +289,22 @@ body {
 
 .francisco {
   background-image: url("../Images/Astronauts/FranciscoRubio.jpg");
+}
+
+.josh {
+  background-image: url("../Images/Astronauts/JoshCassada.jpg");
+}
+
+.anna {
+  background-image: url("../Images/Astronauts/AnnaKikina.jpg");
+}
+
+.nicole {
+  background-image: url("../Images/Astronauts/NicoleMann.jpg");
+}
+
+.koichi {
+  background-image: url("../Images/Astronauts/KoichiWakata.jpg");
 }
 
 .docbrown {
@@ -414,14 +418,6 @@ body {
   background-size: contain;
 }
 
-.modal-card {
-  position: absolute;
-  top: 5%;
-  left: 2%;
-
-  width: 15%;
-}
-
 .modal-body {
   height: 100%;
 }
@@ -491,12 +487,12 @@ body {
 .modal-ship-details {
   position: absolute;
 
-  left: 20%;
+  left: 25%;
   right: 10%;
   top: 5%;
   bottom: 10%;
 
-  font-size: 2.5vw;
+  font-size: 2.3vw;
 
   pointer-events: none;
 }
@@ -506,7 +502,7 @@ body {
   top: 10%;
   left: 3%;
 
-  width: 15%;
+  width: 20%;
 }
 
 /* Crew Modals */
@@ -591,10 +587,18 @@ body {
   border-radius: 20px;
 }
 
+.modal-card {
+  position: absolute;
+  top: 5%;
+  left: 2%;
+
+  width: 20%;
+}
+
 .modal-astro-details {
   position: absolute;
 
-  left: 20%;
+  left: 25%;
   right: 10%;
   top: 5%;
   bottom: 10%;
@@ -622,7 +626,7 @@ body {
 }
 
 .modal-astro-card-name {
-  font-size: 1.1vw;
+  font-size: 1.4vw;
 }
 
 .modal-prev-astro {
@@ -725,7 +729,7 @@ body {
   }
 
   .modal-astro-card-name {
-    font-size: 1.1vw;
+    font-size: 1.4vw;
   }
 }
 
@@ -827,7 +831,7 @@ body {
   }
 
   .modal-ship-details {
-    font-size: 3.9vmin;
+    font-size: 3.7vmin;
   }
 
   .modal-crew-details {
@@ -839,6 +843,10 @@ body {
   }
 
   .modal-astro-card-name {
+    font-size: 2.2vmin;
+  }
+
+  .modal-astro-card-name-long {
     font-size: 2vmin;
   }
 
@@ -848,11 +856,11 @@ body {
 
   .modal-astro-details {
     top: 1%;
-    font-size: 2.4vmin;
+    font-size: 2.3vmin;
   }
 
   .long-astro-details {
-    font-size: 2.1vmin;
+    font-size: 2vmin;
   }
 
   .modal-astro-arrows-prev {
