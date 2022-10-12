@@ -88,12 +88,11 @@
       <!--Astronaut Carousel -->
       <div class="carousel">
         <main id="swiper-contain">
-          <swiper
+          <swiper id="swiper-carousel"
             :modules="modules"
+            :direction="horizontal"
             :slides-per-view="4"
             :slides-per-group="4"
-            :loopedSlides="8"
-            :loop="false"
             :centeredSlides="false"
             :space-between="25"
             :speed="500"
@@ -107,14 +106,16 @@
             :pagination="{
               clickable: true,
             }"
-            :prevent-clicks="true"
-            :prevent-clicks-propagation="true"
+            :preventClicks="true"
+            :preventClicksPropagation="true"
+            :touchMoveStopPropagation="true"
             :watchSlidesProgress="true"
             @swiper="onSwiper"
             @slideChange="onSlideChange"
           >
             <swiper-slide>
               <div class="Cards noselect iOS-visbility-hotfix">
+                <div></div>
                 <a data-bs-toggle="modal" href="#josh-modal">
                   <div class="astronaut-container">
                     <img
@@ -130,62 +131,16 @@
             </swiper-slide>
             <swiper-slide>
               <div class="Cards noselect iOS-visbility-hotfix">
-                <a data-bs-toggle="modal" href="#samantha-modal">
-                  <div class="astronaut-container card-shadow">
-                    <img
-                      class="d-inline"
-                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Second slide"
-                    />
-                    <div class="AstroImage samantha CardCrop3"></div>
-                    <div class="AstronautName LongAstronautName">
-                      Samantha Cristoforetti
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </swiper-slide>
-            <swiper-slide>
-              <div class="Cards noselect iOS-visbility-hotfix">
-                <a data-bs-toggle="modal" href="#bob-modal">
-                  <div class="astronaut-container">
-                    <img
-                      class="d-inline"
-                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Third slide"
-                    />
-                    <div class="AstroImage bob CardCrop3"></div>
-                    <div class="AstronautName">Bob Hines</div>
-                  </div>
-                </a>
-              </div>
-            </swiper-slide>
-            <swiper-slide>
-              <div class="Cards noselect iOS-visbility-hotfix">
+                <div></div>
                 <a data-bs-toggle="modal" href="#anna-modal">
                   <div class="astronaut-container">
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Fourth slide"
+                      alt="Second slide"
                     />
                     <div class="AstroImage anna CardCrop3"></div>
                     <div class="AstronautName">Anna Kikina</div>
-                  </div>
-                </a>
-              </div>
-            </swiper-slide>
-            <swiper-slide>
-              <div class="Cards noselect iOS-visbility-hotfix">
-                <a data-bs-toggle="modal" href="#kjell-modal">
-                  <div class="astronaut-container">
-                    <img
-                      class="d-inline"
-                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Fifth slide"
-                    />
-                    <div class="AstroImage kjell CardCrop3"></div>
-                    <div class="AstronautName">Kjell Lindgren</div>
                   </div>
                 </a>
               </div>
@@ -197,7 +152,7 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Sixth slide"
+                      alt="Third slide"
                     />
                     <div class="AstroImage nicole CardCrop3"></div>
                     <div class="AstronautName">Nicole Mann</div>
@@ -212,7 +167,7 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Seventh slide"
+                      alt="Fourth slide"
                     />
                     <div class="AstroImage dmitry CardCrop3"></div>
                     <div class="AstronautName">Dmitry Petelin</div>
@@ -227,7 +182,7 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Eigth slide"
+                      alt="Fifth slide"
                     />
                     <div class="AstroImage sergey CardCrop3"></div>
                     <div class="AstronautName">Sergey Prokopyev</div>
@@ -242,7 +197,7 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Ninth slide"
+                      alt="Sixth slide"
                     />
                     <div class="AstroImage francisco CardCrop3"></div>
                     <div class="AstronautName">Francisco Rubio</div>
@@ -257,25 +212,10 @@
                     <img
                       class="d-inline"
                       src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Tenth slide"
+                      alt="Seventh slide"
                     />
                     <div class="AstroImage koichi CardCrop3"></div>
                     <div class="AstronautName">Koichi Wakata</div>
-                  </div>
-                </a>
-              </div>
-            </swiper-slide>
-            <swiper-slide>
-              <div class="Cards noselect iOS-visbility-hotfix">
-                <a data-bs-toggle="modal" href="#jessica-modal">
-                  <div class="astronaut-container">
-                    <img
-                      class="d-inline"
-                      src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                      alt="Eleventh slide"
-                    />
-                    <div class="AstroImage jessica CardCrop3"></div>
-                    <div class="AstronautName">Jessica Watkins</div>
                   </div>
                 </a>
               </div>
@@ -550,148 +490,6 @@
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
               </div>
             </a>
-            <a data-bs-toggle="modal" href="#samantha-modal">
-              <div class="modal-next-astro">
-                <img src="./Images/CarouselArrowRight.png" />
-                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="portfolio-modal modal"
-      id="samantha-modal"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content astronaut-modal">
-          <div class="modal-header">
-            <div class="Cards modal-card">
-              <div class="astronaut-container">
-                <img
-                  class="d-inline"
-                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                  alt="Samantha Cristoforetti"
-                />
-                <div class="AstroImage samantha CardCrop3"></div>
-                <div class="AstronautName modal-astro-card-name modal-astro-card-name-long">
-                  Samantha Cristoforetti
-                </div>
-              </div>
-            </div>
-            <span class="modal-astro-name"> Samantha Cristoforetti </span>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="modal-astro-details">
-              <p>
-                <span class="modal-bold">Birthday: </span>April 26, 1977
-                <br />
-                <span class="modal-bold">Born: </span>Milan, Italy
-                <br />
-                <span class="modal-bold">Spaceflights: </span>Expedition 42/43,
-                Expedition 67/68
-                <br />
-                <span class="modal-bold">Fun Fact: </span>Samantha can speak
-                Italian, English, German, French, and Russian.
-                <br />
-                <br />
-                Astronaut Samantha Cristoforetti is the commander for Expedition 68. The commander is in charge of the mission and makes sure it is a success.
-                <br /><br />
-                Samantha is flying for the European Space Agency (ESA). She is
-                the first Italian woman to be an astronaut. This is her second
-                trip to space. She has spent more than 300 days in space.
-              </p>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#josh-modal">
-              <div class="modal-prev-astro">
-                <img src="./Images/CarouselArrowLeft.png" />
-                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
-              </div>
-            </a>
-            <a data-bs-toggle="modal" href="#bob-modal">
-              <div class="modal-next-astro">
-                <img src="./Images/CarouselArrowRight.png" />
-                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="portfolio-modal modal"
-      id="bob-modal"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content astronaut-modal">
-          <div class="modal-header">
-            <div class="Cards modal-card">
-              <div class="astronaut-container">
-                <img
-                  class="d-inline"
-                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                  alt="Bob Hines"
-                />
-                <div class="AstroImage bob CardCrop3"></div>
-                <div class="AstronautName modal-astro-card-name">Bob Hines</div>
-              </div>
-            </div>
-            <span class="modal-astro-name"> Bob Hines </span>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="modal-astro-details">
-              <p>
-                <span class="modal-bold">Birthday: </span>Jan. 11, 1975
-                <br />
-                <span class="modal-bold">Born: </span>Fayetteville, North
-                Carolina
-                <br />
-                <span class="modal-bold">Spaceflights: </span>Expedition 67/68
-                <br />
-                <span class="modal-bold">Fun Fact: </span>Bob attended Space
-                Camp when he was 14 years old.
-                <br />
-                <br />
-                Astronaut Bob Hines is a flight engineer. A flight engineer has
-                many jobs. These can include performing experiments, doing
-                spacewalks, and fixing things on the space station.
-                <br /><br />
-                Bob grew up in Pennsylvania. He is a research pilot and has
-                flown many different types of airplanes. This is his first trip
-                to space.
-              </p>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#samantha-modal">
-              <div class="modal-prev-astro">
-                <img src="./Images/CarouselArrowLeft.png" />
-                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
-              </div>
-            </a>
             <a data-bs-toggle="modal" href="#anna-modal">
               <div class="modal-next-astro">
                 <img src="./Images/CarouselArrowRight.png" />
@@ -753,84 +551,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#bob-modal">
-              <div class="modal-prev-astro">
-                <img src="./Images/CarouselArrowLeft.png" />
-                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
-              </div>
-            </a>
-            <a data-bs-toggle="modal" href="#kjell-modal">
-              <div class="modal-next-astro">
-                <img src="./Images/CarouselArrowRight.png" />
-                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div> 
-
-    <div
-      class="portfolio-modal modal"
-      id="kjell-modal"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content astronaut-modal">
-          <div class="modal-header">
-            <div class="Cards modal-card">
-              <div class="astronaut-container">
-                <img
-                  class="d-inline"
-                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                  alt="Kjell Lindgren"
-                />
-                <div class="AstroImage kjell CardCrop3"></div>
-                <div class="AstronautName modal-astro-card-name">
-                  Kjell Lindgren
-                </div>
-              </div>
-            </div>
-            <span class="modal-astro-name"> Kjell Lindgren </span>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="modal-astro-details long-astro-details">
-              <p>
-                <span class="modal-bold">Birthday: </span>Jan. 23, 1973
-                <br />
-                <span class="modal-bold">Born: </span>Taipei, Taiwan
-                <br />
-                <span class="modal-bold">Spaceflights: </span>Expedition 44/45,
-                Expedition 67/68
-                <br />
-                <span class="modal-bold">Fun Fact: </span>Kjell is an Eagle
-                Scout.
-                <br />
-                <br />
-                Astronaut Kjell Lindgren is a flight engineer. A flight engineer
-                has many jobs. These can include performing experiments, doing
-                spacewalks, and fixing things on the space station.
-                <br /><br />
-                Kjell was born in Taiwan but spent most of his childhood in
-                England. He finished high school in Virginia. Kjell is a medical
-                doctor and was part of the parachute team at the U.S. Air Force
-                Academy.
-                <br /><br />
-                This is Kjell’s second stay on the space station. He has spent
-                more than 250 days in space.
-              </p>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#anna-modal">
+            <a data-bs-toggle="modal" href="#josh-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
@@ -845,7 +566,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> 
 
     <div
       class="portfolio-modal modal"
@@ -897,7 +618,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#kjell-modal">
+            <a data-bs-toggle="modal" href="#anna-modal">
               <div class="modal-prev-astro">
                 <img src="./Images/CarouselArrowLeft.png" />
                 <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
@@ -1023,10 +744,7 @@
                 Expedition 67/68
                 <br />
                 <br />
-                Cosmonaut Sergey Prokopyev is a flight engineer. A flight
-                engineer has many jobs. These can include performing
-                experiments, doing spacewalks, and fixing things on the space
-                station.
+                Cosmonaut Sergey Prokopyev is the commander for Expedition 68. The commander is in charge of the mission and makes sure it is a success.
                 <br /><br />
                 This is Sergey’s second stay on the space station. He spent 196
                 days in space on his first mission in 2018.
@@ -1183,80 +901,6 @@
               </div>
             </a>
             <a data-bs-toggle="modal" href="#jessica-modal">
-              <div class="modal-next-astro">
-                <img src="./Images/CarouselArrowRight.png" />
-                <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="portfolio-modal modal"
-      id="jessica-modal"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content astronaut-modal">
-          <div class="modal-header">
-            <div class="Cards modal-card">
-              <div class="astronaut-container">
-                <img
-                  class="d-inline"
-                  src="./Images/Astronauts/CardBackgroundBlue585x780.png"
-                  alt="Jessica Watkins"
-                />
-                <div class="AstroImage jessica CardCrop3"></div>
-                <div class="AstronautName modal-astro-card-name">
-                  Jessica Watkins
-                </div>
-              </div>
-            </div>
-            <span class="modal-astro-name"> Jessica Watkins </span>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="modal-astro-details">
-              <p>
-                <span class="modal-bold">Birthday: </span>May 14, 1988
-                <br />
-                <span class="modal-bold">Born: </span>Gaithersburg, Maryland
-                <br />
-                <span class="modal-bold">Spaceflights: </span>Expedition 67/68
-                <br />
-                <span class="modal-bold">Fun Fact: </span>Jessica played rugby
-                on the United States women’s national team.
-                <br />
-                <br />
-                Astronaut Jessica Watkins is a flight engineer. A flight
-                engineer has many jobs. These can include performing
-                experiments, doing spacewalks, and fixing things on the space
-                station.
-                <br /><br />
-                Jessica grew up in Colorado. Before becoming an astronaut, she
-                studied geology. Geology is the study of rocks. She is
-                interested in what rocks on the Moon and Mars might be like.
-                This is her first trip to space.
-              </p>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a data-bs-toggle="modal" href="#koichi-modal">
-              <div class="modal-prev-astro">
-                <img src="./Images/CarouselArrowLeft.png" />
-                <p class="modal-astro-arrows-prev">PREVIOUS ASTRONAUT</p>
-              </div>
-            </a>
-            <a data-bs-toggle="modal" href="#example-modal">
               <div class="modal-next-astro modal-hide-arrow">
                 <img src="./Images/CarouselArrowRight.png" />
                 <p class="modal-astro-arrows-next">NEXT ASTRONAUT</p>
@@ -1360,8 +1004,56 @@ export default {
     Swiper,
     SwiperSlide,
   },
-  setup() {
+  /* Attempted tab fix code
+  data() {
     return {
+      swiper: null,
+    };
+  },
+  methods: {
+    slideFocus(e) {
+      if (e.key === 'Tab') {
+            console.log("Hitting Tab");
+
+          var focusEl = document.activeElement.closest('.swiper-slide');
+          if (null != focusEl && !focusEl.classList.contains('swiper-slide-active')) {
+              var slideIndex = Array.prototype.indexOf.call(focusEl.parentNode.children, focusEl);
+              swiper.slideTo(slideIndex);
+          }
+      }
+    },
+
+    onSwiper(swiper) {
+      this.swiper = swiper;
+      swiper.el.addEventListener('keydown', slideFocus);
+    },
+  },
+  */
+  setup() {
+    /*
+    const slideFocus = (e) => {
+      if (e.key === 'Tab') {
+            console.log("Hitting Tab");
+
+          var focusEl = document.activeElement.closest('.swiper-slide');
+          if (null != focusEl && !focusEl.classList.contains('swiper-slide-active')) {
+              var slideIndex = Array.prototype.indexOf.call(focusEl.parentNode.children, focusEl);
+              swiper.slideTo(slideIndex);
+          }
+      }
+    };
+    
+    const onSwiper = (swiper) => {
+      swiper.el.addEventListener('keydown', slideFocus);
+    };
+    */
+
+    return {
+      /*
+      slideFocus,
+      
+      onSwiper,
+      */
       modules: [Navigation, Pagination],
     };
   },
