@@ -56,7 +56,7 @@
           </a>
         </div>
         <div class="monitor" id="MonitorMiddle">
-          <a data-bs-toggle="modal" href="#ex67-modal">
+          <a data-bs-toggle="modal" href="#ex68-modal">
             <img
               src="./Images/NowInSpaceMonitorMiddle.png"
               alt="Expedition 68 Computer Monitor"
@@ -77,8 +77,8 @@
             />
             <div class="patch iOS-visbility-hotfix" id="PatchRight">
               <img
-                src="https://www.nasa.gov/specials/kidsclub/nowinspace/expedition67-crew4/img/slide_12.png"
-                alt="Expedition 67 patch"
+                src="./Images/Expedition/68Patch.png"
+                alt="Expedition 68 patch"
               />
             </div>
           </a>
@@ -359,7 +359,7 @@
 
     <div
       class="portfolio-modal modal"
-      id="ex67-modal"
+      id="ex68-modal"
       tabindex="-1"
       role="dialog"
       aria-hidden="true"
@@ -1004,56 +1004,34 @@ export default {
     Swiper,
     SwiperSlide,
   },
-  /* Attempted tab fix code
-  data() {
-    return {
-      swiper: null,
-    };
-  },
-  methods: {
-    slideFocus(e) {
-      if (e.key === 'Tab') {
-            console.log("Hitting Tab");
-
-          var focusEl = document.activeElement.closest('.swiper-slide');
-          if (null != focusEl && !focusEl.classList.contains('swiper-slide-active')) {
-              var slideIndex = Array.prototype.indexOf.call(focusEl.parentNode.children, focusEl);
-              swiper.slideTo(slideIndex);
-          }
-      }
-    },
-
-    onSwiper(swiper) {
-      this.swiper = swiper;
-      swiper.el.addEventListener('keydown', slideFocus);
-    },
-  },
-  */
   setup() {
-    /*
+
+    var swiperVar = [];
+    
     const slideFocus = (e) => {
       if (e.key === 'Tab') {
-            console.log("Hitting Tab");
+            /*console.log("Hitting Tab");*/
 
           var focusEl = document.activeElement.closest('.swiper-slide');
           if (null != focusEl && !focusEl.classList.contains('swiper-slide-active')) {
               var slideIndex = Array.prototype.indexOf.call(focusEl.parentNode.children, focusEl);
-              swiper.slideTo(slideIndex);
+              swiperVar.slideTo(slideIndex);
           }
       }
     };
     
     const onSwiper = (swiper) => {
+      swiperVar = swiper;
       swiper.el.addEventListener('keydown', slideFocus);
     };
-    */
+    
 
     return {
-      /*
+      
       slideFocus,
       
       onSwiper,
-      */
+      
       modules: [Navigation, Pagination],
     };
   },
