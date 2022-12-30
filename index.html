@@ -14,5 +14,14 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/SpeechSynth.js" defer></script>
   </body>
+
+  <!--Script below copied from https://stackoverflow.com/a/59995554 in order to make tts work-->
+
+  <script>
+    if (global === undefined) {
+      var global = window;
+    }
+  </script>
 </html>
