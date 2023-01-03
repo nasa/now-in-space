@@ -13,7 +13,6 @@ let voices = [];
 
 function populateVoiceList() {
 
-    console.log("I've got " + voiceSelect);
   voices = synth.getVoices().sort(function (a, b) {
     const aname = a.name.toUpperCase();
     const bname = b.name.toUpperCase();
@@ -26,6 +25,7 @@ function populateVoiceList() {
       return +1;
     }
   });
+
   voiceSelect.innerHTML = "";
 
   for (let i = 0; i < voices.length; i++) {
@@ -43,6 +43,7 @@ function populateVoiceList() {
   const selectedIndex = voiceSelect.selectedIndex < 0 ? 0 : voiceSelect.selectedIndex;
 
   voiceSelect.selectedIndex = selectedIndex;
+
 }
 
 if (speechSynthesis.onvoiceschanged !== undefined) {
@@ -67,19 +68,20 @@ function speak(textToSpeak) {
         console.error("SpeechSynthesisUtterance.onerror");
         };
 
-        const selectedOption =
-        voiceSelect.selectedOptions[0].getAttribute("data-name");
+        const selectedOption = voiceSelect.selectedOptions[0].getAttribute("data-name");
 
         for (let i = 0; i < voices.length; i++) {
-        if (voices[i].name === selectedOption) {
+          if (voices[i].name === selectedOption) {
             utterThis.voice = voices[i];
             break;
+          }
         }
-        }
-        utterThis.pitch = pitch.value;
-        utterThis.rate = rate.value;
+        //If we had slider/inputs
+        //utterThis.pitch = pitch.value;
+        //utterThis.rate = rate.value;
+        //Since we don't
+        utterThis.pitch = 1;
+        utterThis.rate = 1;
         synth.speak(utterThis);
     }
 }
-
-export {speak}

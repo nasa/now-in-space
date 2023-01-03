@@ -1009,6 +1009,11 @@ export default {
     Swiper,
     SwiperSlide,
   },
+  mounted() {
+    let externalScript = document.createElement('script')
+    externalScript.setAttribute('src', './src/SpeechSynth.js')
+    document.head.appendChild(externalScript)
+  },
   setup() {
 
     var swiperVar = [];
