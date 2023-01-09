@@ -998,11 +998,6 @@ import "./css/style.css";
 
 import "./css/page.css";
 
-import {SpeakText} from  "./TextToSpeechConverter.js";
-/*
-import {speak} from  "./SpeechSynth.js";
-*/
-
 export default {
   name: "astro-carousel",
   components: {
@@ -1020,7 +1015,6 @@ export default {
     
     const slideFocus = (e) => {
       if (e.key === 'Tab') {
-            /*console.log("Hitting Tab");*/
 
           var focusEl = document.activeElement.closest('.swiper-slide');
           if (null != focusEl && !focusEl.classList.contains('swiper-slide-active')) {
@@ -1046,11 +1040,6 @@ export default {
     };
   },
   methods : {
-    /*
-    SpeakText(param) {
-      speak(param);
-    },
-    */
     SpeakPreGen(filename) {
       var voice = new Audio("./src/audio/" + filename + ".wav");
 
