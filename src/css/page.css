@@ -606,7 +606,7 @@ body {
   font-size: 1.6vw;
   text-align: left;
 
-  pointer-events: none;
+  /*pointer-events: none;*/
 }
 
 .long-astro-details {

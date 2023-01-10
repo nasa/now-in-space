@@ -7,7 +7,7 @@
     />
     <div class="ContentsContainer">
       <div class="header">
-        <p onmouseover="speak('Meet The Astronauts Now in Space');">MEET THE ASTRONAUTS NOW IN SPACE</p>
+        <p onmousedown="speak(this);">MEET THE ASTRONAUTS NOW IN SPACE</p>
       </div>
 
       <div class="NASALogo">
@@ -457,7 +457,7 @@
                 </div>
               </div>
             </div>
-            <span class="modal-astro-name"> Josh Cassada </span>
+            <span class="modal-astro-name" onmousedown="speak(this);"> Josh Cassada </span>
             <button
               type="button"
               class="btn-close"
@@ -467,12 +467,12 @@
           </div>
           <div class="modal-body">
             <div class="modal-astro-details long-astro-details">
-              <p>
-                <span class="modal-bold">Birthday: </span>July 18, 1973
+              <p onmousedown="speak(this);">
+                <span class="modal-bold">Birthday: </span>July 18, 1973.
                 <br />
-                <span class="modal-bold">Born: </span>San Diego, California
+                <span class="modal-bold">Born: </span>San Diego, California.
                 <br />
-                <span class="modal-bold">Spaceflights: </span>Expedition 68/69
+                <span class="modal-bold">Spaceflights: </span>Expedition 68/69.
                 <br />
                 <span class="modal-bold">Fun Fact: </span>Josh has worked in mission control as a CAPCOM, the person who talks to the crew on the space station. 
                 <br />

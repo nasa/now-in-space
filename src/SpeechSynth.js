@@ -50,7 +50,12 @@ if (speechSynthesis.onvoiceschanged !== undefined) {
   speechSynthesis.onvoiceschanged = populateVoiceList;
 }
   
-function speak(textToSpeak) {
+function speak(thingToRead) {
+
+  console.log("This is the Object: " + thingToRead);
+  console.log("This is the text: " + thingToRead.textContent.toLowerCase());
+
+  let textToSpeak = thingToRead.textContent.toLowerCase();
 
     if (synth.speaking) {
         console.error("speechSynthesis.speaking");
