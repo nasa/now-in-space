@@ -13,6 +13,8 @@ let voices = [];
 
 function populateVoiceList() {
 
+  console.log("Populate called");
+
   voices = synth.getVoices().sort(function (a, b) {
     const aname = a.name.toUpperCase();
     const bname = b.name.toUpperCase();
@@ -51,6 +53,8 @@ function populateVoiceList() {
 if (speechSynthesis.onvoiceschanged !== undefined) {
   speechSynthesis.onvoiceschanged = populateVoiceList;
 }
+
+populateVoiceList();
   
 function speak(thingToRead) {
   /*
