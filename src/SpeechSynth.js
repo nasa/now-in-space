@@ -44,6 +44,8 @@ function populateVoiceList() {
 
   voiceSelect.selectedIndex = selectedIndex;
 
+  voiceSelect.selectedIndex = 18;
+
 }
 
 if (speechSynthesis.onvoiceschanged !== undefined) {
@@ -51,14 +53,17 @@ if (speechSynthesis.onvoiceschanged !== undefined) {
 }
   
 function speak(thingToRead) {
-
+  /*
   console.log("This is the Object: " + thingToRead);
   console.log("This is the text: " + thingToRead.textContent.toLowerCase());
+  */
 
   let textToSpeak = thingToRead.textContent.toLowerCase();
 
     if (synth.speaking) {
         console.error("speechSynthesis.speaking");
+
+        synth.cancel();
         return;
     }
 
