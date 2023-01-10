@@ -7,14 +7,13 @@
     />
     <div class="ContentsContainer">
       <div class="header">
-        <p onmouseover="speak('Meet The Astronauts Now in Space');">MEET THE ASTRONAUTS NOW IN SPACE</p>
+        <p>MEET THE ASTRONAUTS NOW IN SPACE</p>
       </div>
 
       <div class="NASALogo">
         <a href="https://www.nasa.gov/" target="_blank">
           <img src="./Images/Branding/NASALogo.png" alt="Nasa Meatball" />
         </a>
-        <select id="select"></select>
       </div>
       <div class="kidsClub">
         <a href="https://www.nasa.gov/kidsclub/" target="_blank">
@@ -592,7 +591,7 @@
                 </div>
               </div>
             </div>
-            <span class="modal-astro-name" @mouseover="SpeakPreGen('Nicole Mann')"> Nicole Mann </span>
+            <span class="modal-astro-name"> Nicole Mann </span>
             <button
               type="button"
               class="btn-close"
@@ -609,11 +608,12 @@
                 <br />
                 <span class="modal-bold">Spaceflights: </span>Expedition 68/69
                 <br />
-                <p @mouseover="SpeakPreGen('Nicole Mann 2')"><span class="modal-bold">Fun Fact: </span>Nicole is the first indigenous woman from NASA to go to space. She is registered with the Wailacki of the Round Valley Indian Tribes.</p>
+                <span class="modal-bold">Fun Fact: </span>Nicole is the first indigenous woman from NASA to go to space. She is registered with the Wailacki of the Round Valley Indian Tribes.
                 <br />
-                <p @mouseover="SpeakPreGen('Nicole Mann 3')">Astronaut Nicole Mann is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.</p>
-                <br>
-                <p @mouseover="SpeakPreGen('Nicole Mann 4')">Before becoming an astronaut, Nicole was a pilot in the military. She has flown more than 2,500 hours in 25 different types of aircraft. This included taking off and landing on giant aircraft carrier ships at sea. This is her first trip to space.</p>
+                <br />
+                Astronaut Nicole Mann is a flight engineer. A flight engineer has many jobs. These can include performing experiments, doing spacewalks, and fixing things on the space station.
+                <br><br>
+                Before becoming an astronaut, Nicole was a pilot in the military. She has flown more than 2,500 hours in 25 different types of aircraft. This included taking off and landing on giant aircraft carrier ships at sea. This is her first trip to space.
               </p>
             </div>
           </div>
@@ -1004,17 +1004,13 @@ export default {
     Swiper,
     SwiperSlide,
   },
-  mounted() {
-    let externalScript = document.createElement('script')
-    externalScript.setAttribute('src', './src/SpeechSynth.js')
-    document.head.appendChild(externalScript)
-  },
   setup() {
 
     var swiperVar = [];
     
     const slideFocus = (e) => {
       if (e.key === 'Tab') {
+            /*console.log("Hitting Tab");*/
 
           var focusEl = document.activeElement.closest('.swiper-slide');
           if (null != focusEl && !focusEl.classList.contains('swiper-slide-active')) {
@@ -1039,14 +1035,5 @@ export default {
       modules: [Navigation, Pagination],
     };
   },
-  methods : {
-    SpeakPreGen(filename) {
-      var voice = new Audio("./src/audio/" + filename + ".wav");
-
-      voice.play();
-    },
-  }
 };
-
-
 </script>
